@@ -1,0 +1,18 @@
+<Item type="CBaseArchetypeDef">
+      <lodDist value="133.75000000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-3.75000000" y="-3.75000000" z="-2.81250000"/>
+      <bbMax x="3.75000000" y="3.75000000" z="2.81250000"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.00000000"/>
+      <bsRadius value="6.00293000"/>
+      <hdTextureDist value="100.31300000"/>
+      <name>np_empty_house3</name>
+      <textureDictionary>np_h_24_txd</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary>np_empty_house3</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>np_empty_house3</assetName>
+      <extensions/>
+</Item>

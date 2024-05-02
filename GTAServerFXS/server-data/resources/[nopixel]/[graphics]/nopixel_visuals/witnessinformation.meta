@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWitnessInformations>
+	<Personalities>
+		<Item key="Default">
+			<Flags>CanWitnessCrimes</Flags>
+		</Item>
+		<Item key="Player">
+			<Flags>CanWitnessCrimes</Flags>
+		</Item>
+	</Personalities>
+</CWitnessInformations>

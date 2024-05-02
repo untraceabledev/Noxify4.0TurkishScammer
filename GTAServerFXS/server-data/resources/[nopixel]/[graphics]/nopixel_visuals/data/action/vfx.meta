@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CActionVfxContainer>
+  <aActionVfx>
+    <!--
+	knife and sharp melee variations
+-->
+    <Item type="CActionVfx">
+      <Name>TD_knife_front</Name>
+      <VfxName>td_blood_stab</VfxName>
+      <dmgPackName>TD_KNIFE_FRONT</dmgPackName>
+      <Offset x="-0.100000" y="0.100000" z="0.000000" />
+      <Rotation x="-90.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_ROOT</BoneTag>
+      <Scale value="0.500000" />
+    </Item>
+	<Item type="CActionVfx">
+      <Name>TD_knife_rear</Name>
+      <VfxName>td_blood_stab</VfxName>
+      <dmgPackName>TD_KNIFE_REAR</dmgPackName>
+      <Offset x="0.100000" y="-0.130000" z="-0.000000" />
+      <Rotation x="90.000000" y="30.000000" z="0.000000" />
+      <BoneTag>BONETAG_ROOT</BoneTag>
+      <Scale value="0.500000" />
+    </Item>
+	<Item type="CActionVfx">
+      <Name>TD_knife_stealth</Name>
+      <VfxName>blood_throat</VfxName>
+      <dmgPackName>TD_KNIFE_STEALTH</dmgPackName>
+      <Offset x="-0.0400000" y="0.0000000" z="-0.070000" />
+      <Rotation x="-180.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.500000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_knife_front_var_a</Name>
+      <VfxName>td_blood_stab</VfxName>
+      <dmgPackName>TD_KNIFE_FRONT_VA</dmgPackName>
+      <Offset x="-0.100000" y="0.100000" z="0.000000" />
+      <Rotation x="-90.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_ROOT</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_knife_throat</Name>
+      <VfxName>blood_throat</VfxName>
+      <dmgPackName>TD_KNIFE_FRONT</dmgPackName>
+      <Offset x="-0.000000" y="0.000000" z="0.000000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_knife_jaw</Name>
+      <VfxName>blood_throat</VfxName>
+      <dmgPackName>TD_KNIFE_FRONT_VB</dmgPackName>
+      <Offset x="-0.050000" y="0.050000" z="0.000000" />
+      <Rotation x="-90.000000" y="-30.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_knife_rear_var_a</Name>
+      <VfxName>blood_throat</VfxName>
+      <dmgPackName>TD_KNIFE_REAR_VA</dmgPackName>
+      <Offset x="-0.0600000" y="0.0000000" z="-0.030000" />
+      <Rotation x="-180.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+	<Item type="CActionVfx">
+      <Name>TD_knife_rear_var_b</Name>
+      <VfxName>blood_throat</VfxName>
+      <dmgPackName>TD_KNIFE_REAR_VB</dmgPackName>
+      <Offset x="-0.0300000" y="0.0000000" z="0.060000" />
+      <Rotation x="-270.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.500000" />
+    </Item>
+	
+    <!--
+	bat and heavy melee variations
+-->
+    <Item type="CActionVfx">
+      <Name>TD_bat_waist</Name>
+      <VfxName>blood_melee_blunt</VfxName>
+      <dmgPackName>TD_MELEE_BATWAIST</dmgPackName>
+      <Offset x="-0.15000" y="0.100000" z="-0.025000" />
+      <Rotation x="0.000000" y="-90.000000" z="0.000000" />
+      <BoneTag>BONETAG_ROOT</BoneTag>
+      <Scale value="0.350000" />
+    </Item>
+    <!--
+	blunt weapon melee variations. Not hand to hand melee
+-->
+    <Item type="CActionVfx">
+      <Name>TD_melee_head_back</Name>
+      <VfxName>blood_melee_blunt</VfxName>
+      <dmgPackName>None</dmgPackName>
+      <Offset x="0.050000" y="-0.050000" z="0.025000" />
+      <Rotation x="90.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.2500000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_melee_face_l</Name>
+      <VfxName>blood_melee_blunt</VfxName>
+      <dmgPackName>TD_melee_face_l</dmgPackName>
+      <Offset x="-0.000000" y="0.100000" z="0.025000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.300000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_melee_face_r</Name>
+      <VfxName>blood_melee_blunt</VfxName>
+      <dmgPackName>MTD_melee_face_r</dmgPackName>
+      <Offset x="-0.000000" y="0.100000" z="0.025000" />
+      <Rotation x="180.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.300000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_melee_face_jaw</Name>
+      <VfxName>blood_melee_blunt</VfxName>
+      <dmgPackName>MTD_melee_face_jaw</dmgPackName>
+      <Offset x="-0.000000" y="0.100000" z="0.025000" />
+      <Rotation x="180.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.500000" />
+    </Item>
+	
+    <!--
+	unarmed melee variations
+-->
+    <Item type="CActionVfx">
+      <Name>TD_melee_unarm_head_back</Name>
+      <VfxName>blood_melee_blunt</VfxName>
+      <dmgPackName>None</dmgPackName>
+      <Offset x="-0.150000" y="0.100000" z="0.025000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.100000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_melee_unarm_face_l</Name>
+      <VfxName>blood_melee_punch</VfxName>
+      <dmgPackName>None</dmgPackName>
+      <Offset x="-0.000000" y="0.100000" z="0.025000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.100000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_melee_unarm_face_r</Name>
+      <VfxName>blood_melee_punch</VfxName>
+      <dmgPackName>None</dmgPackName>
+      <Offset x="-0.000000" y="0.100000" z="0.025000" />
+      <Rotation x="180.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.100000" />
+    </Item>
+    <!--
+	gen blood for nose and mouth
+-->
+    <Item type="CActionVfx">
+      <Name>TD_melee_blood_nose</Name>
+      <VfxName>blood_nose</VfxName>
+      <dmgPackName>None</dmgPackName>
+      <Offset x="0.050000" y="0.100000" z="0.000000" />
+      <Rotation x="-90.000000" y="-30.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_melee_blood_mouth</Name>
+	  <VfxName>blood_mouth</VfxName>
+      <dmgPackName>None</dmgPackName>
+      <Offset x="-0.020000" y="0.100000" z="0.000000" />
+      <Rotation x="-90.000000" y="-90.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+    <!--
+	small weapon variations
+-->
+    <Item type="CActionVfx">
+      <Name>TD_pistol_front_jaw</Name>
+      <VfxName>td_blood_pistol</VfxName>
+      <dmgPackName>TD_PISTOL_FRONT_KILL</dmgPackName>
+      <Offset x="-0.150000" y="0.100000" z="0.025000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_ROOT</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_pistol_front</Name>
+      <VfxName>blood_entry</VfxName>
+      <dmgPackName>TD_PISTOL_FRONT</dmgPackName>
+      <Offset x="-0.100000" y="0.080000" z="0.025000" />
+      <Rotation x="-90.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_ROOT</BoneTag>
+      <Scale value="0.500000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_pistol_front</Name>
+      <VfxName>blood_entry</VfxName>
+      <dmgPackName>TD_PISTOL_FRONT</dmgPackName>
+      <Offset x="0.000000" y="0.085000" z="0.025000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_ROOT</BoneTag>
+      <Scale value="0.500000" />
+    </Item>
+	<Item type="CActionVfx">
+      <Name>TD_pistol_front_kill</Name>
+	  <VfxName>blood_melee_blunt</VfxName>
+      <dmgPackName>MTD_melee_face_jaw</dmgPackName>
+      <Offset x="-0.000000" y="0.100000" z="0.025000" />
+      <Rotation x="180.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.100000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_pistrol_rear</Name>
+      <VfxName>blood_melee_blunt</VfxName>
+      <dmgPackName>TD_PISTOL_REAR</dmgPackName>
+      <Offset x="0.050000" y="-0.050000" z="0.025000" />
+      <Rotation x="90.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.100000" />
+    </Item>
+    <!--
+	medium and large weapon variations
+-->
+    <Item type="CActionVfx">
+      <Name>TD_rifle_front_jaw</Name>
+      <VfxName>td_blood_pistol</VfxName>
+      <dmgPackName>TD_RIFLE_FRONT_KILL</dmgPackName>
+      <Offset x="-0.150000" y="0.100000" z="0.025000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="1.000000" />
+    </Item>
+    <!--
+	shotgun weapon variations
+-->
+    <Item type="CActionVfx">
+      <Name>TD_shotgun_front_jaw</Name>
+      <VfxName>td_blood_shotgun</VfxName>
+      <dmgPackName>TD_SHOTGUN_FRONT_KILL</dmgPackName>
+      <Offset x="-0.050000" y="0.050000" z="0.000000" />
+      <Rotation x="-90.000000" y="-30.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="5.550000" />
+    </Item>
+    <Item type="CActionVfx">
+      <Name>TD_shotgun_rear</Name>
+      <VfxName>td_blood_shotgun</VfxName>
+      <dmgPackName>TD_SHOTGUN_REAR_KILL</dmgPackName>
+      <Offset x="-0.05000" y="-0.03000" z="0.100000" />
+      <Rotation x="90.000000" y="30.000000" z="0.000000" />
+      <BoneTag>BONETAG_ROOT</BoneTag>
+      <Scale value="5.750000" />
+    </Item>
+	    <!--
+	hatchet takedowns
+-->
+    <Item type="CActionVfx">
+      <Name>TD_hatchet_front</Name>
+      <VfxName>td_blood_hatchet</VfxName>
+      <dmgPackName>TD_KNIFE_FRONT</dmgPackName>
+      <Offset x="0.230000" y="0.270000" z="0.035000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_R_PH_HAND</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+	<Item type="CActionVfx">
+      <Name>TD_hatchet_front_b</Name>
+      <VfxName>td_blood_hatchet</VfxName>
+      <dmgPackName>TD_KNIFE_FRONT</dmgPackName>
+      <Offset x="0.230000" y="0.270000" z="0.035000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_R_PH_HAND</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+	<Item type="CActionVfx">
+      <Name>TD_hatchet_back</Name>
+      <VfxName>td_blood_hatchet_back</VfxName>
+      <dmgPackName>TD_KNIFE_FRONT</dmgPackName>
+      <Offset x="0.230000" y="0.270000" z="0.035000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_R_PH_HAND</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+	<Item type="CActionVfx">
+      <Name>TD_hatchet_back_b</Name>
+      <VfxName>td_blood_hatchet</VfxName>
+      <dmgPackName>TD_KNIFE_FRONT</dmgPackName>
+      <Offset x="0.230000" y="0.270000" z="0.035000" />
+      <Rotation x="0.000000" y="0.000000" z="0.000000" />
+      <BoneTag>BONETAG_R_PH_HAND</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+	    <!--
+	animal takedowns
+-->
+    <Item type="CActionVfx">
+      <Name>TD_cougar_back</Name>
+      <VfxName>blood_animal_maul</VfxName>
+      <dmgPackName>SCR_Cougar</dmgPackName>
+      <Offset x="-0.250000" y="0.050000" z="0.000000" />
+      <Rotation x="-90.000000" y="-30.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+	<Item type="CActionVfx">
+      <Name>TD_cougar_front</Name>
+      <VfxName>blood_animal_maul</VfxName>
+      <dmgPackName>SCR_Cougar</dmgPackName>
+      <Offset x="-0.250000" y="0.050000" z="0.000000" />
+      <Rotation x="-90.000000" y="-30.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+	    <Item type="CActionVfx">
+      <Name>TD_rottweiler_back</Name>
+      <VfxName>blood_animal_maul</VfxName>
+      <dmgPackName>SCR_DogAttack</dmgPackName>
+      <Offset x="-0.250000" y="0.050000" z="0.000000" />
+      <Rotation x="-90.000000" y="-30.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+	<Item type="CActionVfx">
+      <Name>TD_rottweiler_front</Name>
+      <VfxName>blood_animal_maul</VfxName>
+      <dmgPackName>SCR_DogAttack</dmgPackName>
+      <Offset x="-0.250000" y="0.050000" z="0.000000" />
+      <Rotation x="-90.000000" y="-30.000000" z="0.000000" />
+      <BoneTag>BONETAG_HEAD</BoneTag>
+      <Scale value="0.750000" />
+    </Item>
+  </aActionVfx>
+</CActionVfxContainer>

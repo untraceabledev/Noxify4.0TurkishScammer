@@ -1,0 +1,815 @@
+8.00
+
+ENTITYFX_START
+
+######################################################################################################################################################################################################################################################################################
+#																																																													                                 #
+#																										CREATION THRESHOLDS -------------------------------------------------->		EVOLUTION INFO --------------------------->						TRIGGERED AMBIENT EFFECTS -----> #	
+#																								IGNORE	ALWAYS	SUN			RAIN		WIND		TEMPERATURE		TIME OF DAY										 TEMP EVO		NIGHT_PROB						TIME             #
+# TAG							PTFX_ASSET					FX_NAME								ROT				THRESH		THRESH		THRESH		MIN		MAX		MIN		MAX		RAIN	WIND	MAX_WIND_EVO	MIN		MAX		MULT			IS_TRIG		MIN		MAX	         #
+#																																																													                                 #
+######################################################################################################################################################################################################################################################################################
+																												
+ENTITYFX_AMBIENT_PTFX_START																						
+																												
+AMB_ABATTOIR_ACID_BATH			core						ent_amb_acid_bath					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_ABATTOIR_CARCASS_DRIP		core						ent_amb_abattoir_carcass			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_ABATTOIR_SAW_BLOOD			core						ent_amb_abattoir_saw_blood			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0		
+AMB_BARREL_FIRE					core						ent_amb_barrel_fire					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_BEACH_CAMPFIRE				core						ent_amb_beach_campfire				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_BEACH_CAMPFIRE2				core						ent_amb_int_fireplace_sml			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_BEACH_CAMPFIRE3				core						ent_ray_ch2_farm_fire_light			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_BUBBLE_STREAM  			    core						ent_amb_bubble_stream				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_BUTTERFLYS					core						ent_amb_butterflys_swarm			0		0		 1.0		-1.0		-1.0		-100	100		06		20		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_CANDLE_FLAME				core						ent_amb_candle_flame				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_CIG_SMOKE_LINGER			core						ent_amb_cig_smoke_linger			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_CH2_FARM_FIRE_DBLE			core						ent_ray_ch2_farm_fire_dble			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_CH2_FARM_FIRE_U_L			core						ent_ray_ch2_farm_fire_u_l			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_CH2_FARM_FIRE_U_S			core						ent_ray_ch2_farm_fire_u_l			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_CH2_FARM_FIRE_L_L_L			core						ent_ray_ch2_farm_fire_l_l_l			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_CH2_FARM_RESI_DBLE			core						ent_ray_ch2_farm_resi_dble			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_CH2_FARM_SMOKE_DBLE 		core						ent_ray_ch2_farm_smoke_dble 		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_CLUCK_BATH_STEAM			core						ent_amb_cluckb_steam				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_COLD_AIR_FLOOR				core						ent_amb_cold_air_floor				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_COLD_AIR_VENT				core						ent_amb_cold_air_vent				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_COCKROACHES					core						ent_amb_cockroaches					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_DRAIN_WATER					core						ent_amb_drain_splash				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_DRY_ICE_AREA				core						ent_amb_dry_ice_area				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_DRY_ICE_VENT				core						ent_amb_dry_ice_vent				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_DUST_DEVIL_RURAL_LRG		core						-									0		0		 0.85		-1.0		-1.0		-100	100		06		20		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_DUST_DEVIL_RURAL_SMA		core						env_dust_devil_rural_sma			0		1		 1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_DUST_DEVIL_URBAN_LRG		core						env_dust_devil_urban_lrg			0		1		 1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_DUST_DEVIL_URBAN_SMA		core						env_dust_devil_urban_sma			0		1		 1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_DUST_MOTES					core						ent_amb_dust_motes					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_ELECTRIC_CRACKLE			core						ent_amb_elec_crackle				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FALLING_LEAVES_L			core						ent_amb_falling_leaves_l			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FALLING_LEAVES_M			core						ent_amb_falling_leaves_m			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_FALLING_LEAVES_PALM			core						ent_amb_falling_palm_leaves			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FALLING_LEAVES_PINE			core						ent_amb_leaves_pine					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FALLING_LEAVES_FICUS		core						ent_amb_leaves_ficus_g				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FALLING_LEAVES_OAK			core						ent_amb_leaves_oak_g				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FALLING_CHERRY_BLOSSOM		core						ent_amb_falling_cherry_bloss		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FALLING_LEAVES_S			core						ent_amb_falling_leaves_s			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_FIRE_DRIP				core						ent_amb_fbi_fire_drip				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_FIRE_FOGBALL			core						ent_amb_fbi_fire_fogball			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_SMOKE_FOGBALL			core						ent_amb_fbi_smoke_fogball			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_FBI_SMOKE_LINGER_LT			core						ent_amb_fbi_smoke_linger_lt			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_FBI_SMOKE_LINGER_HVY		core						ent_amb_fbi_smoke_linger_hvy		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_FBI_SMOKE_LAND_LT			core						ent_amb_fbi_smoke_land_lt			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_FBI_SMOKE_LAND_MED			core						ent_amb_fbi_smoke_land_med			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+
+AMB_FBI_SMOKE_LAND_HVY			core						ent_amb_fbi_smoke_land_hvy			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_FBI_STAIR_SMOKE_GATHER		core						ent_amb_fbi_smoke_stair_gather		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_FBI_SMOKE_RAMP_LT			core						ent_amb_fbi_smoke_ramp_lt			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_FBI_SMOKE_RAMP_MED			core						ent_amb_fbi_smoke_ramp_med			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_FBI_SMOKE_RAMP_HVY			core						ent_amb_fbi_smoke_ramp_hvy			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_SMOKE_DOOR_LT			core						ent_amb_fbi_smoke_door_lt			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_SMOKE_DOOR_MED			core						ent_amb_fbi_smoke_door_med			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_SMOKE_DOOR_HVY			core						ent_amb_fbi_smoke_door_hvy			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_FBI_SMOKE_EDGE_LIP			core						ent_amb_fbi_smoke_edge_lip			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_FBI_ELEC_CRACKLE			core						ent_amb_fbi_live_wires				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+
+AMB_FBI_FIRE_SMALL				core						ent_amb_fbi_fire_sm					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_FBI_FIRE_LARGE				core						ent_amb_fbi_fire_lg					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_FIRE_WALL_LARGE			core						ent_amb_fbi_fire_wall_lg			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_FIRE_WALL_SMALL			core						ent_amb_fbi_fire_wall_sm			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_FIRE_BEAM				core						ent_amb_fbi_fire_beam				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_FIRE_DOOR				core						ent_amb_fbi_fire_door				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_FIRE_DOUBLEDOOR			core						ent_amb_fbi_fire_dub_door			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_CINDER					core						ent_amb_fbi_cinder					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_SMOULDER_LARGE_3A		core						ent_amb_fbi_smoulder_lg				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_SMOULDER_SMALL_3A		core						ent_amb_fbi_smoulder_sm				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_FBI_SMOULDER_LARGE_3B		core						ent_amb_fbi_smoulder_lg				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_SMOULDER_SMALL_3B		core						ent_amb_fbi_smoulder_sm				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_SMOKE_CREEP				core						ent_amb_fbi_smoke_creep				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_FALLING_DEBRIS			core						ent_amb_fbi_falling_debris			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0																												
+AMB_FBI_FIRE_SMOKE				core						ent_amb_fbi_door_smoke				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_SMALL_FLAMES			core						ent_amb_fbi_fire_sm					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_SPARK_LIVE_WIRES		core						ent_amb_fbi_live_wires				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_GROUND_DEBRIS			core						scr_fbi_ground_debris				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FBI_FALLING_DUST			core						scr_fbi_falling_dust				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FIRE_GASWORKS				core						ent_amb_fire_gaswork				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_FIRE_RING 					core						ent_amb_fire_ring 					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FLY_SWARM					core						ent_amb_fly_swarm					0		0		 1.0		-1.0		-1.0		-100	100		06		20		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FLY_ZAPPED					core						ent_amb_fly_zapped					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FOUNDRY_ARC_FURNACE			core						ent_amb_foundry_arc_heat			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_OWENSHEPARD_FOGBALL			core						_fog_foundry						0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FOUNDRY_FOGBALL				core						ent_amb_foundry_fogball				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_FOUNDRY_DUST				core						ent_amb_foundry_dust				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FOUNDRY_MOLTEN_POUR			core						ent_amb_foundry_molten_pour			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0																											
+AMB_FOUNDRY_MOLTEN_STEAM		core						ent_amb_foundry_steam				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FOUNDRY_MOLTEN_HAZE			core						ent_amb_foundry_heat_haze			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FOUNTAIN_DOUBLE				core						ent_amb_fountain_double				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_FOUNTAIN_MANSION2			core						ent_amb_fountain_mansion2			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FOUNTAIN_ARCADIUS			core						ent_amb_fountain_rodeo				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FOUNTAIN_RODEO				core						ent_amb_fountain_rodeo				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_FOUNTAIN_POUR				core						ent_amb_fountain_pour				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_GENERATOR_SMOKE				core						ent_amb_generator_smoke				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_INSECT_SWARM				core						ent_amb_insect_swarm				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_INSECT_PLANE				core						ent_amb_insect_plane				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_INT_FIREPLACE				core						ent_amb_int_fireplace				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_INT_WATERFALL_RUNOFF		core						ent_amb_int_waterfall_runoff		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_INT_WATERFALL_SPLASH		core						ent_amb_int_waterfall_splash		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_JACUZZI						core						ent_amb_jazuzzi						0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_JOSH3_SMALL_HOUSE_FIRES		scr_josh3					scr_josh3_fires						0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_JOSH3_HOUSE_SMOKED			scr_josh3					scr_josh3_house_smoked				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_MACHINE_EXHAUST_THICK		core						ent_amb_exhaust_thick				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_MACHINE_EXHAUST_THIN		core						ent_amb_exhaust_thin				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_MOTHS						core						ent_amb_moths_swarm					0		0		 1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_MOTHS_CUPBOARD				core						ent_amb_moths_cupboard				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_MOTHS_NIGHTTIME				core						ent_amb_moths_swarm					0		0		 1.0		-1.0		-1.0		-100	100		19		06		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PAL_HELI_EXPLOSION			core						ent_ray_heli_aprtmnt_exp			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PAL_HELI_SILT				core						ent_ray_heli_aprtmnt_silt			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_PAL_HELI_S_FIRE				core						ent_ray_heli_aprtmnt_s_fire			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PAL_HELI_SPARK_WIRES		core						ent_ray_heli_aprtmnt_sprk_wrs		1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PAL_HELI_WATER				core						ent_ray_heli_aprtmnt_water			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_FAM3_DUST_MOTES			core						ent_ray_fam3_dust_motes				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_FINALE1_FIRE			core						ent_ray_finale1_fire				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_FINALE1_PETROL			core						ent_ray_tanker_petrol_spray			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_FBI5A_LIGHT_DOOR		core						ent_amb_fbi_light_door				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_PALETO_GAS_PLUME		core						ent_ray_paleto_gas_plume_amb		1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_PALETO_GAS_PLUME_L		core						ent_ray_paleto_gas_plume_amb_L		1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_PALETO_GAS_FLAMES		core						ent_ray_paleto_gas_flames			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_PROLOGUE_ELEC_CRACKLE	core						ent_ray_prologue_elec_crackle		1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+
+AMB_RAY_SHIPWRECK_BUBBLES		core						ent_ray_shipwreck_bubbles			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_SHIPWRECK_OIL			core						ent_ray_shipwreck_oil				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_SHIPWRECK_FIRE			core						ent_ray_ch2_farm_fire_u_l			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_FINALE_VAULT_HAZE		core						ent_ray_finale_vault_haze			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAY_FINALE_VAULT_SPARKS		core						ent_ray_finale_vault_sparks			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PALETO_GAS_WINDOW_FIRE		core						ent_ray_paleto_gas_window_fire		1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PEEING						core						ent_amb_peeing						1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PRO_BDOOR_WATER_DRIP		core						ent_ray_pro1_water_drip				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0																																												   							
+AMB_PROLOGUE_ELECTRICALS		core						ent_amb_pro_elec_fires				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PROLOGUE_SPRINKLER_ON		core						scr_agency3b_sprinkler_on			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_PROLOGUE_SPRINKLER_OFF		core						scr_agency3b_sprinkler_off			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RIVER_MIST_GEN				core						ent_amb_river_mist_gen				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RIVER_SPLASH_GEN			core						ent_amb_river_splash_gen			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RIVER_FLOATING_DEBRIS		core						ent_amb_floating_debris				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SANDSTORM					core						env_sandstorm						0		0		 0.9		-1.0		-1.0		-100	100		00		24		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SEWER_DRIPS_LG				core						ent_amb_sewer_drips_lg				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SEWER_DRIPS_MED				core						ent_amb_sewer_drips_med				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SEWER_DRIPS_SM				core						ent_amb_sewer_drips_sm				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SMOKE_CHICKEN				core						ent_amb_smoke_chicken				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SMOKE_FACTORY				core						ent_amb_smoke_factory				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SMOKE_FOUNDRY				core						ent_amb_smoke_foundry				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_SMOKE_FACTORY_WHITE			core						ent_amb_smoke_factory_white			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SMOKE_FOUNDRY_WHITE			core						ent_amb_smoke_foundry_white			1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SMOKE_GASWORKS				core						ent_amb_smoke_gaswork				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SMOKE_GEN_FACTORY			core						ent_amb_smoke_general				1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SMOKE_SCRAPYARD				core						ent_amb_smoke_scrap					1		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STEAM_DIRECTED				core						ent_amb_steam						0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SNOW_LENS					core						none								0		0		 0.89		-1.0		-1.0		-100	100		00		24		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_SNOW_MIST_BASE				core						ent_amb_snow_mist_base				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SNOW_MIST_UPPER				core						ent_amb_snow_mist_upper				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SOL1_PLANE_WRECK			core						ent_amb_sol1_plane_wreck			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SPARKING_WIRES				core						ent_amb_sparking_wires				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_SPARKING_WIRES_SMALL		core						ent_amb_sparking_wires				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SPRINKLER_CITY_1AM-5AM		core						ent_amb_sprinkler_city				0		0		-1.0		-1.0		-1.0		-100	100		01		05		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SPRINKLER_CITY_2PM-4PM		core						ent_amb_sprinkler_city				0		0		-1.0		-1.0		-1.0		-100	100		14		16		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SPRINKLER_CITY_7AM-11AM		core						ent_amb_sprinkler_city_sml			0		0		-1.0		-1.0		-1.0		-100	100		00		24		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SPRINKLER_CROP				core						ent_amb_sprinkler_crop				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SPRINKLER_GOLF				core						ent_amb_sprinkler_golf				0		0		-1.0		-1.0		-1.0		-100	100		19		06		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0																									
+AMB_STEAM_PIPE_HVY				core						ent_amb_steam_pipe_hvy				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_SPRINKLER_INT_ON			core						scr_agency3b_sprinkler_on			0		0		-1.0		-1.0		-1.0		-100	100		19		06		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0																									
+AMB_SPRINKLER_INT_OFF			core						Scr_agency3b_sprinkler_off			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STEAM_PIPE_LGT				core						ent_amb_steam_pipe_lgt				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_STEAM_VENT_PRISON			core						ent_amb_steam_prison				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STEAM_VENT_OPEN_HVY			core						ent_amb_steam_vent_open_hvy			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STEAM_VENT_OPEN_LGT			core						ent_amb_steam_vent_open_lgt			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STEAM_VENT_ROUND			core						ent_amb_steam_vent_round			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STEAM_VENT_RND_HVY			core						ent_amb_steam_vent_rnd_hvy			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STONER_DUST_DROP			core						ent_amb_stoner_dust_drop			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STONER_FALLING_DEBRIS		core						ent_amb_stoner_falling_debris		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STONER_RUBBLE_DROP			core						ent_amb_stoner_rubble_drop			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STONER_VENT_SMOKE			core						ent_amb_stoner_vent_smoke			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_TNL_BUBBLES_LGE				core						ent_amb_tnl_bubbles_lge				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_TNL_BUBBLES_SML				core						ent_amb_tnl_bubbles_sml				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_TORCH_FIRE					core						ent_amb_torch_fire					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0																										
+AMB_TORCH_FIRE_NIGHT			core						ent_amb_torch_fire					0		0		-1.0		-1.0		-1.0		-100	100		20		05		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0																										
+AMB_TRAIN_WATER_WASH			core						ent_ray_train_water_wash			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_TREV1_METH_FIRES			core						ent_ray_meth_fires					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_TREV1_TRAILER_SPLASH_F		core						ent_amb_trev1_trailer_sp_f			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_TREV1_TRAILER_SPLASH_S		core						ent_amb_trev1_trailer_sp_s			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_TAP_DRIP					core 						ent_amb_tap_drip					0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_TROPICAL_FISH_YELLOW		core						ent_amb_trop_fish_swarm_col			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_TROPICAL_FISH_GOLD			core						ent_amb_trop_fish_swarm_lil			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_TROPICAL_FISH_BLUE			core     					ent_amb_trop_fish_swarm_lil			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_TROPICAL_FISH_STRIP			core						ent_amb_trop_fish_swarm_angel		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_VENT_HAZE_LG				core						ent_amb_vent_haze_lg				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_VENT_HAZE_SM				core						ent_amb_vent_haze_sm				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_WATER_DRIPS_LG				core						ent_amb_water_drips_lg				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_WATER_DRIPS_MED				core						ent_amb_water_drips_med				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_WATER_DRIPS_SM				core						ent_amb_water_drips_sm				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_WATERFALL_TOP				core						ent_amb_waterfall_runoff			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_WATERFALL_PNT_SPLASH		core						ent_amb_waterfall_splash_p			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_WATERFALL_BASE				core						ent_amb_waterfall_splash			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_WATERFALL_POOL				core						ent_amb_waterfall_pool				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WATER_ROOF_DRIPS			core						ent_amb_water_roof_drips			0		0		-1.0		 0.5		-1.0		-100	100		00		24		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0		
+AMB_WATER_ROOF_DRIPS_SHORT		core						ent_amb_water_roof_drips_thin		0		0		-1.0		 0.5		-1.0		-100	100		00		24		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0		
+AMB_WATER_ROOF_POUR_SHORT		core						ent_amb_water_roof_pour				0		0		-1.0		 0.5		-1.0		-100	100		00		24		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0		
+AMB_WATER_ROOF_POUR_LONG		core						ent_amb_water_roof_pour_long		0		0		-1.0		 0.5		-1.0		-100	100		00		24		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0		
+AMB_WIND_DUST					core						ent_amb_wind_litter_dust			0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0		
+AMB_WIND_DUST_DIRECTED			core						ent_amb_wind_litter_dust_dir		0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0		
+AMB_WIND_DUST_SWIRL				core						ent_amb_wind_litter_dust_swirl		0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0		
+AMB_WIND_HAY					core						ent_amb_wind_hay					0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0		
+AMB_WIND_HAY_DIRECTED			core						ent_amb_wind_hay_dir				0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0		
+
+AMB_WIND_GRASS					core						ent_amb_wind_grass					0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WIND_GRASS_DIRECTED			core						ent_amb_wind_grass_dir				0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WIND_LEAVES					core						ent_amb_wind_leaves					0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WIND_LEAVES_DIRECTED		core						ent_amb_wind_leaves_dir				0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WIND_LEAVES_SWIRL			core						ent_amb_wind_leaves_swirl			0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WIND_LEAVES_TREE_TOP		core						ent_amb_wind_tree_leaves			0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WIND_LITTER					core						ent_amb_wind_litter					0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WIND_LITTER_DIRECTED		core						ent_amb_wind_litter_dir				0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WIND_LITTER_SWIRL			core						ent_amb_wind_litter_swirl			0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WIND_LITTER_RANDOM			core						ent_amb_wind_rand_litter			0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+
+AMB_WIND_SAND_DUNE				core						env_wind_sand_dune					0		1		-1.0		 0.0		-1.0		-100	100		0		0		0		1		10.0			0.0		0.0		1.0				0			0.0		0.0	
+AMB_WATERFALL_SPLASH_SML		core						ent_amb_wfall_splash_sml			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_WATERFALL_SPLASH_MED		core						ent_amb_wfall_splash_med			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_WATERFALL_SPLASH_LRG		core						ent_amb_wfall_splash_lg				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAPID_AREA_SPRAY			core						ent_amb_rapid_area_spray			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAPID_DIR_SPRAY				core						ent_amb_rapid_dir_spray				0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAPID_DIR_SPLASH			core						ent_amb_rapid_dir_splash			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAPID_DIR_SPLASH_WIDE		core						ent_amb_rapid_dir_splash_wide		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAPID_AREA_SPRAY_HVY		core						ent_amb_rapid_area_spray_hvy		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_RAPID_ROCK_DRIPS			core						ent_amb_rapid_rock_drips			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_RAPID_DIR_SPLASH_LIGHT		core						ent_amb_rapid_dir_splash_light		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STONER_WOODCHIP_DROP	 	core						ent_amb_stoner_woodchip_drop		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_STONER_WOODCHIP_FALLING	 	core						ent_amb_stoner_falling_wchips		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PAL_HELI_SQ_FIRE		 	core						ent_ray_heli_aprtmnt_s_fire_sq		0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PAL_HELI_L_FIRE			 	core						ent_ray_heli_aprtmnt_l_fire			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PAL_HELI_H_FIRE				core						ent_ray_heli_aprtmnt_h_fire			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_PAL_HELI_EMBERS 			core						ent_ray_heli_aprtmnt_embers			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_INT_FIREPLACE_SML			core						ent_amb_int_fireplace_sml			0		0		-1.0		-1.0		-1.0		-100	100		21		08		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_WATER_DRIPS_DAM				core						ent_amb_water_drips_dam_med			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+AMB_WATER_SPLASHES			 	core						ent_amb_water_splash_wide			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0
+
+AMB_BARREL_FIRE_RACE			core						ent_amb_barrel_fire_race			0		1		-1.0		-1.0		-1.0		-100	100		0		0		0		0		10.0			0.0		0.0		1.0				0			0.0		0.0	
+
+#COUNT=229
+
+
+ENTITYFX_AMBIENT_PTFX_END
+
+
+#################################################################################################
+# TAG							PTFX_ASSET					FX_NAME								#
+#																								#
+#################################################################################################
+
+FRAGMENTFX_BREAK_PTFX_START
+
+BRK_BANKNOTES					core						ent_brk_banknotes
+BRK_BLOOD						core						ent_brk_blood
+BRK_CACTUS						core						ent_brk_cactus
+BRK_CHAMPAGNE_CASE				core						ent_brk_champagne_case
+BRK_COINS						core						ent_brk_coins
+BRK_CONCRETE					core						ent_brk_concrete
+BRK_LAMPPOST_BASE				core						ent_brk_lamppost_base
+BRK_LAMPOST_CONCRETE			core						ent_brk_concrete
+BRK_METAL_FRAG					core						ent_brk_metal_frag
+BRK_SPARKING_WIRES				core						ent_brk_sparking_wires
+BRK_SHOT_STEAM					core   						ent_brk_steam_burst
+
+BRK_GATE_SMOKE					core						ent_brk_gate_smoke
+BRK_STONE						core						ent_brk_concrete
+BRK_TREE_LEAVES					core						ent_brk_tree_leaves
+BRK_TREE_TRUNK_BARK				core						ent_brk_tree_trunk_bark
+BRK_UPROOTED					core   						ent_brk_uprooted
+BRK_WOOD_PLANKS					core						ent_brk_wood_planks
+BRK_WOOD_SPLINTER				core						ent_brk_wood_splinter
+
+
+#COUNT=18
+FRAGMENTFX_BREAK_PTFX_END
+
+
+#############################################################################################################################
+#																															#
+# TAG							PTFX_ASSET					FX_NAME								COLL_PT	IMPETUS_THRESH		#
+#																										MIN		MAX			#
+#																															#
+#############################################################################################################################
+
+ENTITYFX_COLLISION_PTFX_START
+
+COL_BUSH_LEAVES					core						ent_col_bush_leaves					0		1800	7000
+COL_ELECTRICAL					core						ent_col_electrical					0		1800	7000
+COL_FALLING_SNOW				core						ent_col_falling_snow				0		1800	7000
+COL_GEN_TREE_DUST				core						ent_col_gen_tree_dust				0		15000	30000
+COL_LEAVES						core						ent_col_tree_leaves					0		1800	7000
+COL_ORANGES						core						ent_col_tree_oranges				0		1800	7000
+COL_PALM_LEAVES					core						ent_col_palm_leaves					0		15000	30000
+COL_ROCKS						core 						ent_col_rocks						0		1800	7000
+COL_UPROOTED					core						ent_brk_uprooted					0		1800	7000
+
+#COUNT=9
+ENTITYFX_COLLISION_PTFX_END
+
+
+#############################################################################################################################
+#																															#
+# TAG							PTFX_ASSET					FX_NAME								NO_TRIGGER_EXP_RANGE		#
+#																															#
+#############################################################################################################################
+
+FRAGMENTFX_DESTROY_PTFX_START
+	
+DST_BOX_NOODLE					core						ent_dst_box_noodle					4.0
+DST_BREAD						core						ent_dst_bread						3.0
+DST_CACTUS						core						ent_brk_cactus						0.0
+DST_CERAMICS					core						ent_dst_ceramics					5.0
+DST_CIG_PACKETS					core						ent_dst_cig_packets					4.0
+DST_CHICK_CARCASS				core						ent_dst_chick_carcass				4.0
+DST_CONCRETE					core						ent_dst_concrete					0.0
+DST_CONCRETE_LARGE				core						ent_dst_concrete_large				0.0
+DST_CRISP_BAGS					core						ent_dst_crispbags					5.0
+DST_DONUTS						core						ent_dst_donuts						3.0
+
+DST_DUST						core						ent_dst_dust						0.0
+DST_EGG_MULCH					core						ent_dst_egg_mulch					3.0
+DST_ELECTRIC_CRACKLE			core						ent_dst_elec_crackle				1.0
+DST_ELECTRICAL					core						ent_dst_electrical					1.0
+DST_FOAM_EXTINGUISHER			core						exp_extinguisher					2.0
+DST_GEN_CARDBOARD				core						ent_dst_gen_cardboard				4.0
+DST_GEN_CHOC					core						ent_dst_gen_choc					4.0
+DST_GEN_FOOD					core						ent_dst_gen_food					4.0
+DST_GEN_GOBSTOP					core						ent_dst_gen_gobstop					6.0
+DST_INFLATE_BALL				core						ent_dst_inflate_ball				2.0
+
+DST_INFLATE_BALL_CLR			core						ent_dst_inflate_ball_clr			2.0
+DST_INFLATE_LILO				core						ent_dst_inflate_lilo				2.0
+DST_INFLATE_RING				core						ent_dst_inflate_ring				2.0
+DST_GEN_LIQUID_BURST			core						ent_dst_gen_liquid_burst			5.0
+DST_GEN_PAPER					core						ent_dst_gen_paper					5.0
+DST_GEN_PLASTIC_CONT			core						ent_dst_gen_plastic_cont			5.0
+DST_GEN_WATER_SPRAY				core						ent_dst_gen_water_spray				5.0
+DST_GLASS_BOTTLES				core						ent_dst_glass_bottles				5.0
+DST_GLASS_BULB					core						ent_dst_glass_bulb					5.0
+DST_HOBO_TROLLEY				core						ent_dst_hobo_trolley				3.0
+
+DST_LAMPOST_CONCRETE			core						ent_brk_concrete					0.0
+DST_LITTER						core						ent_dst_litter						0.0
+DST_MAIL						core						ent_dst_mail						3.0
+DST_METAL_CANISTER				core						ent_dst_metal_frag					0.0
+DST_METAL_FRAG					core						ent_dst_metal_frag					0.0
+DST_NEWSPAPER					core						ent_dst_newspaper					5.0
+DST_OFFICE_PAPER				core						ent_dst_office_paper				5.0
+DST_PAINT_CANS					core						ent_dst_paint_cans					5.0
+DST_PINEAPPLE					core						ent_dst_pineapple					4.0
+DST_PLANT_LEAVES				core						ent_dst_plant_leaves				0.0
+
+DST_PUMPKIN						core						ent_dst_pumpkin						0.0
+DST_RUBBISH						core						ent_dst_rubbish						0.0
+DST_ROCKS						core						ent_dst_rocks						0.0
+DST_ROCKS_SMALL					core						ent_dst_rocks_small					0.0
+DST_SHOP_CERAMICS				core						ent_dst_ceramics					2.0
+DST_SHOP_FOAM_EXTING			core						exp_extinguisher					0.0
+DST_SHOP_GLASS_BOTTLES			core						ent_dst_glass_bottles				4.0
+DST_SHOP_PLASTIC_CONT			core						ent_dst_gen_plastic_cont			4.0
+DST_SNOW_ON_TOMBS				core						ent_dst_snow_tombs					0.0
+DST_SPARKING_WIRES				core						ent_brk_sparking_wires				0.0
+
+DST_SWEET_BOXES					core						ent_dst_sweet_boxes					4.0
+DST_UPHOLSTREY					core						ent_dst_upholstery					5.0
+DST_UPROOTED					core						ent_brk_uprooted					4.0
+DST_WET_SAND					core						ent_dst_wet_sand					0.0
+DST_WOOD_CHUNKY					core						ent_dst_wood_chunky					0.0
+DST_WOOD_STRUCTURES				core						ent_dst_wood_planks					0.0
+DST_WOOD_SPLINTER				core						ent_dst_wood_splinter				0.0
+DST_POLYSTYRENE					core						ent_dst_polystyrene					0.0
+DST_CHIP_CARRIER				core						ent_dst_chip_carrier				0.0
+DST_INFLATABLE					core						ent_dst_inflatable					0.0
+
+DST_CASINO_CHIPS				core						ent_dst_casino_chips				2.0
+DST_CERAMICS_TINT				core						ent_dst_ceramics_tint				5.0
+DST_VEG_SHRUB					core						ent_dst_veg_shrub					0.0
+DST_SNOWMAN						core						ent_dst_xt_snowman					0.0
+
+
+#COUNT=63
+FRAGMENTFX_DESTROY_PTFX_END
+
+
+#############################################################################################################################
+#																															#
+# TAG							PTFX_ASSET					FX_NAME								COLL_PT						#
+#																															#
+#############################################################################################################################
+
+ENTITYFX_SHOT_PTFX_START
+
+SHT_BEER_CONTAINERS				core						ent_sht_beer_containers				1
+SHT_BLOOD						core						ent_sht_blood						1
+SHT_BUSH_FOLIAGE				core						ent_sht_bush_foliage				1
+SHT_CACTUS						core						ent_sht_cactus						1
+SHT_CARDBOARD					core						ent_sht_cardboard					1
+SHT_DUST						core						ent_sht_dust						1
+SHT_ELECTRICAL_BOX				core						ent_sht_electrical_box				1
+SHT_ELECTRICAL_FIRE				core						ent_dst_elec_fire					1
+SHT_FEATHERS					core						ent_sht_feathers					1
+SHT_FIRE_EXTINGUISHER			core						ent_sht_extinguisher				1
+
+SHT_FLAME						core						ent_sht_flame						1
+SHT_GLOOPY_LIQUID				core						ent_sht_gloopy_liquid				1
+SHT_MOLTEN_LIQUID				core						ent_sht_molten_liquid				1
+SHT_OIL							core						ent_sht_oil							1
+SHT_PAINT_CANS					core						ent_sht_paint_cans					1
+SHT_PAPER_BAILS					core						ent_sht_paper_bails					1
+SHT_PETROL						core						ent_sht_petrol						1
+SHT_PETROL_FIRE					core						ent_sht_petrol_fire					1
+SHT_RUBBISH_BAGS				core						ent_sht_rubbish						1
+SHT_SHOP_BEER_CONT				core						ent_sht_beer_containers				1
+
+SHT_SPARKING_WIRES				core						ent_brk_lamppost_base				1
+SHT_STEAM						core						ent_sht_steam						1
+SHT_TELEGRAPH_POLE				core						ent_sht_telegraph_pole				1
+SHT_WATER						core						ent_sht_water						1
+SHT_WATER_EXTINGUISHER			core						ent_sht_extinguisher_water			1
+SHT_WATER_TOWER					core						ent_sht_water_tower					1
+SHT_BEER_BARREL					core						ent_sht_beer_barrel					1
+
+
+#COUNT=27
+ENTITYFX_SHOT_PTFX_END
+
+
+#################################################################################################
+#																								#
+# TAG							PTFX_ASSET					FX_NAME								#
+#																								#
+#################################################################################################
+
+ENTITYFX_ANIM_PTFX_START
+
+ANM_CIG_SMOKE_CAR				core						ent_anim_cig_smoke_car
+ANM_CIG_EXHALE_MTH_CAR			core						ent_anim_cig_exhale_mth_car
+ANM_CIG_EXHALE_NSE_CAR			core						ent_anim_cig_exhale_nse_car
+ANM_CIG_EXHALE_MTH				core						ent_anim_cig_exhale_mth
+ANM_CIG_EXHALE_NSE				core						ent_anim_cig_exhale_nse
+ANM_CIG_SMOKE					core						ent_amb_steam_pipe_lgt
+ANM_ANIMAL_GRAZE				core						ent_anim_animal_graze
+ANM_BUM_WASH_MIST				core						ent_anim_bm_water_mist
+ANM_BUM_WASH_SCOOP				core						ent_anim_bm_water_scp
+
+ANM_BBQ							core						ent_anim_bbq
+ANM_BLOWN_RADIATOR				core						ent_anim_blown_radiator
+ANM_FISH_BREATH_BUBBLES			core						ent_anim_fish_breath_bubbles
+ANM_FISH_FLEE_BUBBLES			core						ent_anim_fish_flee_bubbles
+ANM_HEN_FLEE					core						ent_anim_hen_flee
+ANM_LITTER_SWEEPING				core						ent_anim_street_sweep
+ANM_DUSTY_HANDS					core						ent_anim_dusty_hands
+ANM_GARDNER_PLANT				core						ent_anim_gardener_plant
+ANM_LEAF_BLOWER					core						ent_anim_leaf_blower
+ANM_PNEUMATIC_DRILL				core						ent_anim_pneumatic_drill
+
+ANM_SML_ANIMAL_GRAZE			core						ent_anim_animal_graze
+ANM_WELDER						core						ent_anim_welder
+ANM_PAPARAZZI_FLASH				core						ent_anim_paparazzi_flash
+
+ANM_SNOT_BLOW					core						ent_anim_snot_blow
+ANM_WEED_SMOKE					core						ent_anim_weed_smoke
+
+#COUNT=24
+ENTITYFX_ANIM_PTFX_END
+
+
+#################################################################################################
+#																								#
+# TAG							PTFX_ASSET					FX_NAME								#
+#																								#
+#################################################################################################
+
+ENTITYFX_RAYFIRE_PTFX_START
+
+# RAYFIRE VFX [ARMENIAN2 - SCAFFOLDING COLLAPSE]
+RAY_SCAF_DUST_CLOUDS			des_scaffolding				ent_ray_scaf_dust_clouds
+RAY_SCAF_EXPLOSION				des_scaffolding				ent_ray_scaf_explosion
+RAY_SCAF_FIRE_TRAILS			des_scaffolding				ent_ray_scaf_fire_trails
+RAY_SCAF_SPARK_BURSTS			des_scaffolding				ent_ray_scaf_spark_bursts
+RAY_SCAF_WOOD_FRAGS				des_scaffolding				ent_ray_scaf_wood_frags
+RAY_SCAF_DUST_MOTES				des_scaffolding				ent_ray_fam3_dust_motes
+
+
+# RAYFIRE VFX [ARMENIAN3 - CAR SHOWROOM WINDOW] 
+RAY_ARM3_WINDOW_BREAK			des_car_show_room			ent_ray_arm3_window_break
+RAY_ARM3_WOOD_SPLINTER			des_car_show_room			ent_ray_arm3_wood_splinter
+RAY_ARM3_PAPER					des_car_show_room			ent_ray_arm3_paper
+RAY_ARM3_SPARKING_WIRES			des_car_show_room			ent_ray_arm3_sparking_wires
+
+
+# RAYFIRE VFX [CHINESE2 - FARMHOUSE BLAZE]
+RAY_CH2_FARM_CS_LIGHT			des_farmhouse				ent_ray_ch2_farm_cs_lights
+RAY_CH2_FARM_DUST_TERRAIN		des_farmhouse				ent_ray_ch2_farm_dust_terrain
+RAY_CH2_FARM_EXP_WINDOW			des_farmhouse				ent_ray_ch2_farm_exp
+RAY_CH2_FARM_EXP_PORCH_WINDOW	des_farmhouse				ent_ray_ch2_farm_exp_porch_window
+
+RAY_CH2_FARM_FIRE_DBLE			des_farmhouse				ent_ray_ch2_farm_fire_dble
+RAY_CH2_FARM_FIRE_U_L			des_farmhouse				ent_ray_ch2_farm_fire_u_l
+RAY_CH2_FARM_FIRE_L_L_L			des_farmhouse				ent_ray_ch2_farm_fire_l_l_l
+RAY_CH2_FARM_FIRE_LIGHT			des_farmhouse				ent_ray_ch2_farm_fire_light
+RAY_CH2_FARM_RESI_DBLE			des_farmhouse				ent_ray_ch2_farm_resi_dble
+
+RAY_CH2_FARM_SMOKE_DBLE 		des_farmhouse				ent_ray_ch2_farm_smoke_dble 
+
+# RAYFIRE VFX [EXILE1 - BI PLANE CRASH]
+RAY_EX1_PLANE_SPARK_L			des_bi_plane				ent_ray_ex1_plane_spark_L
+RAY_EX1_PLANE_BREAK_L			des_bi_plane				ent_ray_ex1_plane_break_L
+RAY_EX1_PLANE_SPARK_R			des_bi_plane				ent_ray_ex1_plane_spark_R
+RAY_EX1_PLANE_BREAK_R			des_bi_plane				ent_ray_ex1_plane_break_R
+
+
+# RAYFIRE VFX [FAMILY2 - TV SMASH]
+RAY_FAM2_TV_SPARKS				des_tv_smash				ent_ray_fam2_tv_smash
+
+# RAYFIRE VFX [FAMILY3 - STILTHOUSE COLLAPSE]
+RAY_FAM3_CONCRETE_FRAGS			des_stilthouse				ent_ray_fam3_concrete_frags
+RAY_FAM3_CREAKING_DUST			des_stilthouse				ent_ray_fam3_creaking_dust
+RAY_FAM3_DECK_FRACTURE			des_stilthouse				ent_ray_fam3_deck_fracture
+RAY_FAM3_TERRAIN_DUST			des_stilthouse				ent_ray_fam3_terrain_dust
+RAY_FAM3_WALL_GLASS				des_stilthouse				ent_ray_fam3_wall_glass
+RAY_FAM3_WINDOWS				des_stilthouse				ent_ray_fam3_windows
+RAY_FAM3_WOOD_FRAGS				des_stilthouse				ent_ray_fam3_wood_frags
+RAY_FAM3_DUST_CLOUD				des_stilthouse				ent_ray_fam3_dust_cloud
+RAY_FAM3_DUST_CLOUD_LINGER		des_stilthouse				ent_ray_fam3_dust_linger
+RAY_FAM3_FALLING_LEAVES			des_stilthouse				ent_ray_fam3_falling_leaves
+RAY_FAM3_DUST_TRAILS			des_stilthouse				ent_ray_fam3_dust_trails
+
+
+# RAYFIRE VFX [FAMILY4 - FRUIT BOWL]
+RAY_FAM4_FRUIT_BOWL				des_fruit_bowl				ent_ray_fam4_fruit_bowl
+
+
+# RAYFIRE VFX [FBI2 - WINDOW SMASH]
+RAY_FBI2_WINDOW_BREAK			des_fib_glass				ent_ray_fbi2_window_break
+RAY_FBI2_GLASS_DROP				des_fib_glass				ent_ray_fbi2_glass_drop
+
+
+# RAYFIRE VFX [FBI4 - TRUCK SLIDE VS WALL]
+RAY_FBI4_TRUCK_SLAM				des_smash2					ent_ray_fbi4_truck_slam
+RAY_FBI4_WALL_DEBRIS			des_smash2					ent_ray_fbi4_wall_debris
+RAY_FBI4_WALL_DUST				des_smash2					ent_ray_fbi4_wall_dust
+RAY_FBI4_WALL_DUST_MOTE			des_smash2					ent_ray_fbi4_wall_dust_mote
+RAY_FBI4_SPARKS_POINT			des_smash2					ent_ray_fbi4_sparks_point
+RAY_FBI4_SPARKS_LINE			des_smash2					ent_ray_fbi4_sparks_line
+RAY_FBI4_TERRAIN_DUST			des_smash2					ent_ray_fbi4_terrain_dust
+
+
+# RAYFIRE VFX [Finale1 - KILL TREVOR]
+RAY_FINALE1_LIQUID_NITRO		des_finale					ent_ray_finale1_liquid_nitro
+RAY_FINALE1_LIQUID_PETROL		des_finale					ent_ray_finale1_liquid_petrol
+
+
+# RAYFIRE VFX [Finale1 - KILL TREVOR]
+RAY_FINALE1_EXPLOSION			des_tanker_crash			ent_ray_tanker_exp
+RAY_FINALE1_EXPLOSION_TRAILS	des_tanker_crash			ent_ray_tanker_exp_sp
+RAY_FINALE1_PETROL_SPRAY		des_tanker_crash			ent_ray_tanker_petrol_spray
+
+
+# RAYFIRE VFX [PROLOGUE - BANK VAULT DOOR]
+RAY_PRO1_BOLT_SPARKS			des_vaultdoor				ent_ray_pro1_bolt_sparks
+RAY_PRO1_CEILING_DEBRIS			des_vaultdoor				ent_ray_pro1_ceiling_debris
+RAY_PRO1_CONCRETE_IMPACTS		des_vaultdoor				ent_ray_pro1_concrete_impacts
+RAY_PRO1_FLOOR_SPARKS			des_vaultdoor				ent_ray_pro1_floor_sparks
+RAY_PRO1_FLOATING_CASH			des_vaultdoor				ent_ray_pro1_floating_cash
+RAY_PRO1_LIGHT_GLASS 			des_vaultdoor				ent_ray_pro1_light_glass
+RAY_PRO1_SPARKING_WIRES			des_vaultdoor				ent_ray_pro1_sparking_wires
+RAY_PRO1_SPRINKLER_BURST		des_vaultdoor				ent_ray_pro1_sprinkler_burst
+RAY_PRO1_RESIDUAL_SMOKE			des_vaultdoor				ent_ray_pro1_residual_smoke
+RAY_PRO1_VAULT_EXPLOSION		des_vaultdoor				ent_ray_pro1_vault_exp2
+RAY_PRO1_WALL_SMASHED			des_vaultdoor				ent_ray_pro1_wall_smashed
+RAY_PRO1_DOOR_STEAM				des_vaultdoor				ent_ray_pro_door_steam
+RAY_PRO1_WATER_DRIP				des_vaultdoor				ent_ray_pro1_water_drip
+
+
+# RAYFIRE VFX [PROLOGUE - BLAST DOOR]
+RAY_PRO_DOOR_CEILING_DEBRIS		des_prologue_door			ent_ray_pro_door_ceiling_debris
+RAY_PRO_DOOR_FIREBALL_LIGHT		des_prologue_door			ent_ray_pro_door_fireball_light
+RAY_PRO_DOOR_LIGHT_GLASS		des_prologue_door			ent_ray_pro_door_light_glass
+RAY_PRO_DOOR_SPARKS				des_prologue_door			ent_ray_pro_door_sparks
+RAY_PRO_DOOR_SPRINKLER			des_prologue_door			ent_ray_pro_door_sprinkler
+RAY_PRO_DOOR_STEAM				des_prologue_door			ent_ray_pro_door_steam
+RAY_PRO_DOOR_EMBERS				des_prologue_door			ent_ray_pro_door_embers
+
+
+# RAYFIRE VFX [PROLOGUE - TREE CRASH]
+RAY_PRO_TREE_CRASH				des_pro_tree_crash			ent_ray_pro_tree_crash
+RAY_PRO_TREE_CRASH_SNOW			des_pro_tree_crash			ent_ray_pro_tree_crash_snow
+RAY_PRO_TREE_CRASH_SNOW_SLUSH	des_pro_tree_crash			ent_ray_pro_tree_crash_snow_slush
+
+# RAYFIRE VFX [RC:NIGEL2 - HOSPITAL DOORS]
+RAY_HOSPITAL_GLASS				des_hospitaldoors			ent_ray_hospital_glass
+
+
+# RAYFIRE VFX [THE AGENCY HEIST - CEILING COLLAPSE]
+RAY_FBI5A_CEILING_CABLE_BREAK	des_fib_ceiling				ent_ray_fbi5a_ceiling_cable
+RAY_FBI5A_CEILING_DEBRIS		des_fib_ceiling				ent_ray_fbi5a_ceiling_debris
+RAY_FBI5A_CEILING_IMPACTS		des_fib_ceiling				ent_ray_fbi5a_ceiling_impacts
+RAY_FBI5A_CEILING_SPRINKLER		des_fib_ceiling				ent_ray_fbi5a_ceiling_sprinkler
+RAY_FBI5A_CEILING_WIRES			des_fib_ceiling				ent_ray_fbi5a_sparking_wires
+
+
+# RAYFIRE VFX [THE AGENCY HEIST - DOOR EXPLOSION]
+RAY_FBI5A_DOOR_EXP				des_fib_door				ent_ray_fbi_door_exp
+	
+
+# RAYFIRE VFX [THE AGENCY HEIST - RAMP FLOOR COLLAPSE]
+RAY_FBI5A_RAMP_DUST_IMP			des_fib_floor				ent_ray_fbi5a_ramp_dust_impact
+RAY_FBI5A_RAMP_EXPLOSION		des_fib_floor				ent_ray_fbi5a_ramp_explosion
+RAY_FBI5A_RAMP_FRAGS			des_fib_floor				ent_ray_fbi5a_ramp_fragment
+RAY_FBI5A_RAMP_METAL_IMP		des_fib_floor				ent_ray_fbi5a_ramp_metal_imp
+
+
+# RAYFIRE VFX [THE AGENCY HEIST - STAIRWELL COLLAPSE]
+RAY_FBI5A_STAIRS_DUST_FILL		des_fibstairs				ent_ray_fbi5a_stairs_dust_fill
+RAY_FBI5A_STAIRS_FRAGS			des_fibstairs				ent_ray_fbi5a_stairs_fragment
+RAY_FBI5A_STAIRS_SILT_FALL		des_fibstairs				ent_ray_fbi5a_stairs_silt_fall
+
+
+# RAYFIRE VFX [THE BIG JOB3B - DRILLING START]
+RAY_BIG_DRILL_START				des_bigjobdrill				ent_ray_big_drill_start
+RAY_BIG_DRILL_LOOP				des_bigjobdrill				ent_ray_big_drill_loop
+RAY_BIG_DRILL_START_SPARKS		des_bigjobdrill				ent_ray_big_drill_start_sparks
+
+
+# RAYFIRE VFX [THE BIG JOB3B - DRILLING BREAK THROUGH]
+RAY_BIG_DRILL_CLOUD				des_bigjobdrill				ent_ray_big_drill_cloud
+RAY_BIG_DRILL_IBT				des_bigjobdrill				ent_ray_big_drill_ibt
+RAY_BIG_DRILL_TRAIL				des_bigjobdrill				ent_ray_big_drill_trail
+RAY_BIG_DRILL_SPARKS			des_bigjobdrill				ent_ray_big_drill_sparks
+RAY_BIG_DRILL_GROUND_DUST		des_bigjobdrill				ent_ray_big_drill_ground_dust
+
+
+
+# RAYFIRE VFX [THE PALETO SCORE - PETROL STATION EXPLOSION]
+RAY_PALETO_GAS_DUST_TERRAIN		des_gas_station				ent_ray_paleto_gas_dust_terrain
+RAY_PALETO_GAS_EXPLOSION		des_gas_station				ent_ray_paleto_gas_explosion
+RAY_PALETO_GAS_FLAMES			des_gas_station				ent_ray_paleto_gas_flames
+RAY_PALETO_GAS_PLUME			des_gas_station				ent_ray_paleto_gas_plume
+RAY_PALETO_GAS_PLUME_L			des_gas_station				ent_ray_paleto_gas_plume_L
+RAY_PALETO_GAS_EXP_TILES		des_gas_station				ent_ray_paleto_gas_exp_tiles
+RAY_PALETO_GAS_WINDOW_BREAK		des_gas_station				ent_ray_paleto_gas_window_break
+RAY_PALETO_GAS_WINDOW_FIRE		des_gas_station				ent_ray_paleto_gas_window_fire
+RAY_PALETO_GAS_DEBRIS_TRAILS	des_gas_station				ent_ray_paleto_gas_debris_trails
+
+
+# RAYFIRE VFX [THE PALETO SCORE - HELICOPTER VS APARTMENT BLOCK]
+RAY_HELI_APRTMNT_EXP			des_apartment_block			ent_ray_heli_aprtmnt_exp
+RAY_HELI_APRTMNT_SILT			des_apartment_block			ent_ray_heli_aprtmnt_silt
+RAY_HELI_APRTMNT_SPRK_WRS		des_apartment_block			ent_ray_heli_aprtmnt_sprk_wrs
+RAY_HELI_APRTMNT_WATER			des_apartment_block			ent_ray_heli_aprtmnt_water
+RAY_HELI_APRTMNT_TRAIL			des_apartment_block			ent_ray_heli_aprtmnt_trail
+RAY_HELI_APRTMNT_S_FIRE			des_apartment_block			ent_ray_heli_aprtmnt_s_fire
+
+
+# RAYFIRE VFX [TREVOR1 - METH TRAILER]
+RAY_METH_TRAILER_EXP			des_methtrailer				ent_ray_meth_explosion
+RAY_METH_TRAILER_FIRES			des_methtrailer				ent_ray_meth_fires
+RAY_METH_DUST_TERRAIN			des_methtrailer				ent_ray_meth_dust_terrain
+
+
+# RAYFIRE VFX [DOCK HEIST A B - SHIPWRECK]
+RAY_SHIPWRECK_EXP				des_shipwreck				ent_ray_shipwreck_exp
+RAY_SHIPWRECK_EXP_UW			des_shipwreck				ent_ray_shipwreck_exp_underwater
+RAY_SHIPWRECK_EXP_WINDOW		des_shipwreck				ent_ray_shipwreck_exp_window
+RAY_SHIPWRECK_SMOKE_PLUME		des_shipwreck				ent_ray_shipwreck_smoke_plume
+RAY_SHIPWRECK_FIRE_WINDOW		des_shipwreck				ent_ray_shipwreck_fire_window
+RAY_SHIPWRECK_PIPE_IMPACTS		des_shipwreck				ent_ray_shipwreck_pipe_impacts
+RAY_SHIPWRECK_SPARKS			des_shipwreck				ent_ray_shipwreck_sparks
+RAY_SHIPWRECK_SPLASH			des_shipwreck				ent_ray_shipwreck_splash_L
+RAY_SHIPWRECK_SPLASH_S			des_shipwreck				ent_ray_shipwreck_splash_S
+RAY_SHIPWRECK_TRAILS			des_shipwreck				ent_ray_shipwreck_container_trail
+RAY_SHIPWRECK_WATER_CHURN		des_shipwreck				ent_ray_shipwreck_water_churn
+RAY_SHIPWRECK_WOOD_DEBRIS		des_shipwreck				ent_ray_shipwreck_wood_debris
+
+
+# RAYFIRE VFX [EXILE3:DERAILED - TRAIN CRASH]
+RAY_TRAIN_DEBRIS				des_train_crash				ent_ray_train_debris
+RAY_TRAIN_DEBRIS2				des_train_crash				ent_ray_train_debris2
+RAY_TRAIN_DUST					des_train_crash				scr_trev1_crash_dust
+RAY_TRAIN_IMPACT				des_train_crash				ent_ray_train_impact
+RAY_TRAIN_SPARKS				des_train_crash				ent_ray_train_sparks
+RAY_TRAIN_GLASS					des_train_crash				ent_ray_train_glass
+RAY_TRAIN_SPARKS_TRAIL			des_train_crash				ent_ray_train_sparks_trails
+RAY_TRAIN_SMOKE					des_train_crash				ent_ray_train_smoke
+RAY_TRAIN_GROUND_DUST			des_train_crash				ent_ray_meth_dust_settle
+RAY_TRAIN_SPLASH				des_train_crash				ent_ray_train_splash
+RAY_TRAIN_DUST_SILT				des_train_crash				ent_ray_train_dust_silt
+RAY_TRAIN_WATER_WASH			des_train_crash				ent_ray_train_water_wash
+RAY_TRAIN_DEBRIS_SPLASH			des_train_crash				ent_ray_train_debris_water_splash
+
+
+# RAYFIRE VFX [FAMILY3 - FRENCH DOORS]
+RAY_FAM3_GLASS_BREAK			des_french_doors			ent_ray_fam3_glass_break
+
+
+# RAYFIRE VFX [TREVOR3 - FRIENDS REUNITED]
+RAY_TRAILERPARK_EXP_L			des_trailerpark				ent_ray_trailerpark_explosion_L
+RAY_TRAILERPARK_WINDOW			des_trailerpark				ent_ray_trailerpark_window
+RAY_TRAILERPARK_FIRE			des_trailerpark				ent_ray_trailerpark_fires
+RAY_TRAILERPARK_DUST			des_trailerpark				ent_ray_trailerpark_dust_terrain
+
+#COUNT=153
+
+ENTITYFX_RAYFIRE_PTFX_END
+
+
+#####################################################################################################################
+#																													#
+# TAG							PTFX_ASSET					FX_NAME								SPEED_UP_THRESH	    #
+#																								MIN			MAX	    #
+#####################################################################################################################
+
+ENTITYFX_INWATER_PTFX_START
+
+WTR_ROCKS_RND_SPLASH			core						wtr_rocks_rnd_splash			0.5	    	3.0
+WTR_ROCKS_WALL_SPLASH			core						wtr_rocks_wall_splash			0.5	    	3.0
+WTR_SEA_POLE_SPLASH				core						wtr_sea_pole_splash				0.5	    	3.0
+
+
+#COUNT=3
+ENTITYFX_INWATER_PTFX_END
+
+
+#####################################################################################################################################################################################
+#												    																			<-------------------- PROBE ------------------->	#
+# TAG							DECALID	SIZEMIN	SIZEMAX	LIFEMIN	LIFEMAX	FADEIN	COL_TINT    ALPHA				  GROWTH	    NUM	<-- DIRECTION -->		  RADIUS		DIST    #
+#																				R   G	B   MIN		MAX			TIM MIN MAX			X		Y		Z		MIN		MAX				#
+#####################################################################################################################################################################################
+
+FRAGMENTFX_BREAK_DECAL_START
+
+#DB_TEST							9999	0.5		1.0		10.0	20.0	1.0		255 255	255 0.5		1.0			0.0 1.0 1.0	    1   0.0		0.0		-1.0	0.5		2.0		5.0
+
+#COUNT=0
+FRAGMENTFX_BREAK_DECAL_END
+
+
+#############################################################################################################################################################################################################
+#												    																			<-------------------- PROBE ------------------->							#
+# TAG							DECALID	SIZEMIN	SIZEMAX	LIFEMIN	LIFEMAX	FADEIN	COL_TINT    ALPHA				  GROWTH	    NUM	<-- DIRECTION -->		  RADIUS		DIST	COLL_PT	IMPULSE_THRESH  # 
+#																				R   G	B   MIN		MAX			TIM MIN MAX			X		Y		Z		MIN		MAX						MIN		MAX		#
+#############################################################################################################################################################################################################
+																			
+ENTITYFX_COLLISION_DECAL_START																	
+																				
+#DC_TEST							9999	0.5		1.0		10.0	20.0	1.0		255 255	255 0.5		1.0			0.0 1.0 1.0	    1   0.0		0.0		1.0		0.5		2.0		5.0		0		1800	7000	
+																				
+#COUNT=0																			
+ENTITYFX_COLLISION_DECAL_END																	
+
+
+#####################################################################################################################################################################################
+#												    																			<-------------------- PROBE ------------------->	#
+# TAG							DECALID	SIZEMIN	SIZEMAX	LIFEMIN	LIFEMAX	FADEIN	COL_TINT    ALPHA				  GROWTH	    NUM	<-- DIRECTION -->		  RADIUS		DIST    #
+#																				R   G	B   MIN		MAX			TIM MIN MAX			X		Y		Z		MIN		MAX				#
+#####################################################################################################################################################################################
+									
+FRAGMENTFX_DESTROY_DECAL_START							
+										
+#DD_TEST							9999	0.5		1.0		10.0	20.0	1.0		255 255	255 0.5		1.0			0.0 1.0 1.0	    1   0.0		0.0    -1.0		0.5		2.0		5.0
+
+#COUNT=0
+FRAGMENTFX_DESTROY_DECAL_END
+
+
+#############################################################################################################################################################################################
+#												    																			<-------------------- PROBE ------------------->			#
+# TAG							DECALID	SIZEMIN	SIZEMAX	LIFEMIN	LIFEMAX	FADEIN	COL_TINT    ALPHA				  GROWTH	    NUM	<-- DIRECTION -->		  RADIUS		DIST    COLL_PT	#
+#																				R   G	B   MIN		MAX			TIM MIN MAX			X		Y		Z		MIN		MAX						#
+#############################################################################################################################################################################################
+																			
+ENTITYFX_SHOT_DECAL_START																	
+																				
+#DS_TEST							9999	0.5		1.0		10.0	20.0	1.0		255 255	255 0.5		1.0			0.0 1.0 1.0	    1   0.0		0.0    -1.0		0.5		2.0		5.0		0	
+
+#COUNT=0
+ENTITYFX_SHOT_DECAL_END
+
+
+ENTITYFX_END
+
+# NaturalVision by Razed
+# DO NOT DISTRIBUTE WITHOUT PERMISSION OF THE CREATOR

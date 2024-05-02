@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+    <variationData>
+        <Item>
+            <modelName>aemsv450</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        134
+                        134
+                        134
+                        156
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Police guv plate</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="1" />
+            <sirenSettings value="4" />
+        </Item>
+        <Item>
+            <modelName>apoliceu9</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        0
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>68_oracle2_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="35" />
+            <sirenSettings value="7004" />
+        </Item>
+        <Item>
+            <modelName>apoliceu</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries />
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="1" />
+            <sirenSettings value="7004" />
+        </Item>
+        <Item>
+            <modelName>apoliceu13</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        152
+                        152
+                        0
+                        152
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        3
+                        3
+                        0
+                        3
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        12
+                        12
+                        0
+                        12
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        52
+                        52
+                        0
+                        52
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        154
+                        154
+                        0
+                        154
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="0" />
+            <sirenSettings value="7004" />
+        </Item>
+        <Item>
+            <modelName>apoliceu10</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        152
+                        152
+                        0
+                        152
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        3
+                        3
+                        0
+                        3
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        12
+                        12
+                        0
+                        12
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        52
+                        52
+                        0
+                        52
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        154
+                        154
+                        0
+                        154
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="0" />
+            <sirenSettings value="7004" />
+        </Item>
+        <Item>
+            <modelName>apoliceu15</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        12
+                        12
+                        12
+                        156
+                        48
+                        156
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="45" />
+            <sirenSettings value="7004" />
+        </Item>
+        <Item>
+            <modelName>apoliceub</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        12
+                        12
+                        12
+                        7
+                        12
+                        12
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="57" />
+            <sirenSettings value="7004" />
+        </Item>
+        <Item>
+            <modelName>apoliceu6</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries />
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_suv_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="72" />
+            <sirenSettings value="2010" />
+        </Item>
+        <Item>
+            <modelName>stanier2</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries />
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="1" />
+            <sirenSettings value="0" />
+        </Item>
+        <Item>
+            <modelName>apoliceu2</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries />
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="1" />
+            <sirenSettings value="7004" />
+        </Item>
+        <Item>
+            <modelName>apoliceu14</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        <Item value="0" />
+                        <Item value="0" />
+                        <Item value="11" />
+                        <Item value="156" />
+                    </indices>
+                    <liveries />
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        <Item value="2" />
+                        <Item value="0" />
+                        <Item value="0" />
+                        <Item value="156" />
+                    </indices>
+                    <liveries />
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        <Item value="75" />
+                        <Item value="0" />
+                        <Item value="157" />
+                        <Item value="156" />
+                    </indices>
+                    <liveries />
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        <Item value="7" />
+                        <Item value="0" />
+                        <Item value="0" />
+                        <Item value="0" />
+                    </indices>
+                    <liveries />
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        <Item value="34" />
+                        <Item value="0" />
+                        <Item value="45" />
+                        <Item value="0" />
+                    </indices>
+                    <liveries />
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        <Item value="0" />
+                        <Item value="0" />
+                        <Item value="2" />
+                        <Item value="0" />
+                    </indices>
+                    <liveries />
+                </Item>
+            </colors>
+            <kits>
+                <Item>61_buffalo2_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="26" />
+            <sirenSettings value="7004" />
+        </Item>
+        <Item>
+            <modelName>apoliceu7</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        0
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="72" />
+            <sirenSettings value="7004" />
+        </Item>
+        <Item>
+            <modelName>torrence</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        0
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="72" />
+            <sirenSettings value="0" />
+        </Item>
+        <Item>
+            <modelName>polbuffalo4</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        112
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>4820_polbuffalo4_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Police guv plate</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="719" />
+            <sirenSettings value="2200" />
+        </Item>
+        <Item>
+            <modelName>polcaracara</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        112
+                        0
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries />
+                </Item>
+            </colors>
+            <kits>
+                <Item>5000_polcara_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Police guv plate</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="450" />
+            <sirenSettings value="2220" />
+        </Item>
+        <Item>
+            <modelName>polcomet</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        112
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>913_polcomet_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="93" />
+            <sirenSettings value="913" />
+        </Item>
+        <Item>
+            <modelName>polcoq4</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        112
+                        0
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>915_polcoq4_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="157" />
+            <sirenSettings value="915" />
+        </Item>
+        <Item>
+            <modelName>poldom</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        12
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>4827_poldom_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="133" />
+            <sirenSettings value="2205" />
+        </Item>
+        <Item>
+            <modelName>polvigero2</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        112
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>914_polvigero2_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Police guv plate</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="119" />
+            <sirenSettings value="914" />
+        </Item>
+        <Item>
+            <modelName>polvstr</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        0
+                        112
+                        0
+                        0
+                        0
+                        0
+                        0
+                    </indices>
+                    <liveries>
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                        <Item value="false" />
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>4998_polvstr_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges />
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100" />
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="151" />
+            <sirenSettings value="2200" />
+        </Item>
+    </variationData>
+</CVehicleModelInfoVariation>

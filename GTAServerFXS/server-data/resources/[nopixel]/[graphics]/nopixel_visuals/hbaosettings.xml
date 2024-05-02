@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NaturalVision by Razed -->
+<!-- DO NOT DISTRIBUTE WITHOUT PERMISSION OF THE CREATOR! -->
+
+<HBAO_Parameters>
+  <HBAORelativeStrength value="0.800000" />
+  <CPRelativeStrength value="0.500000" />
+  <HBAORadius0 value="0.100000" />
+  <HBAORadius1 value="0.500000" />
+  <HBAOBlendDistance value="1.000000" />
+  <CPRadius value="1.000000" />
+  <MaxPixels value="50.000000" />
+  <CutoffPixels value="3.000000" />
+  <FoliageStrength value="1.000000" />
+  <HBAOFalloffExponent value="1.000000" />
+  <CPStrengthClose value="0.550000" />
+  <CPBlendDistanceMin value="0.001000" />
+  <CPBlendDistanceMax value="1.000000" />
+</HBAO_Parameters>

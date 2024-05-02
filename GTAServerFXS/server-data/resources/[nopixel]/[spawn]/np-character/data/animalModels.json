@@ -1,0 +1,224 @@
+{
+    "a_c_raccoon_01": {
+        "dict": "creatures@cat@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_racoon_01": {
+        "dict": "creatures@cat@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_cat_01": {
+        "dict": "creatures@cat@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_chop": {
+        "dict": "creatures@rottweiler@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_husky": {
+        "dict": "creatures@rottweiler@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_retriever": {
+        "dict": "creatures@retriever@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_rottweiler": {
+        "dict": "creatures@rottweiler@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_mtlion": {
+        "dict": "creatures@cougar@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_rat": {
+        "dict": "creatures@rat@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_westy": {
+        "dict": "creatures@pug@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_westy_np": {
+        "dict": "creatures@pug@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_pug": {
+        "dict": "creatures@pug@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_pug_np": {
+        "dict": "creatures@pug@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_poodle": {
+        "dict": "creatures@pug@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_cow": {
+        "dict": "creatures@cow@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_boar": {
+        "dict": "creatures@boar@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_chickenhawk": {
+        "dict": "creatures@chickenhawk@move",
+        "anims": {
+            "dead": "dead_down"
+        }
+    },
+    "a_c_hen": {
+        "dict": "creatures@hen@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_crow": {
+        "dict": "creatures@crow@move",
+        "anims": {
+            "dead": "dead_down"
+        }
+    },
+    "np_crow": {
+        "dict": "creatures@crow@move",
+        "anims": {
+            "dead": "dead_down"
+        }
+    },
+    "a_c_pig": {
+        "dict": "creatures@pig@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_shepherd": {
+        "dict": "creatures@rottweiler@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_shepherd_np": {
+        "dict": "creatures@rottweiler@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_husky_np": {
+        "dict": "creatures@husky@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_chop_np": {
+        "dict": "creatures@rottweiler@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_pit_np": {
+        "dict": "creatures@rottweiler@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_retriever_np": {
+        "dict": "creatures@retriever@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_panther": {
+        "dict": "creatures@cougar@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_leopard": {
+        "dict": "creatures@cougar@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_lostdog": {
+        "dict": "creatures@coyote@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_coyote": {
+        "dict": "creatures@coyote@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_deer": {
+        "dict": "creatures@deer@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_horse": {
+        "dict": "creatures@deer@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "a_c_pigeon": {
+        "dict": "creatures@pigeon@move",
+        "anims": {
+            "dead": "dead_down"
+        }
+    },
+    "a_c_seagull": {
+        "dict": "creatures@gull@move",
+        "anims": {
+            "dead": "dead_down"
+        }
+    },
+    "a_c_rabbit_01": {
+        "dict": "creatures@rabbit@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    },
+    "brnbear": {
+        "dict": "creatures@deer@move",
+        "anims": {
+            "dead": "dead_right"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NaturalVision by Razed -->
+<!-- DO NOT DISTRIBUTE WITHOUT PERMISSION OF THE CREATOR! -->
+
+<timecycle_modifier_data version="1.000000">
+	<modifier name="NG_first" numMods="8" userFlags="0">
+		<postfx_motionblurlength>0.000 1.000</postfx_motionblurlength>
+		<lens_dist_coeff>-0.055 0.000</lens_dist_coeff>
+		<lens_dist_cube_coeff>-0.108 0.000</lens_dist_cube_coeff>
+		<Lensflare_visibility>0.000 0.000</Lensflare_visibility>
+		<lens_artefacts_intensity>0.000 0.0000</lens_artefacts_intensity>
+		<postfx_grad_bottom_col_r>1.000 0.000</postfx_grad_bottom_col_r>
+		<postfx_grad_bottom_col_g>1.000 0.000</postfx_grad_bottom_col_g>
+		<postfx_grad_bottom_col_b>1.000 0.000</postfx_grad_bottom_col_b>
+	</modifier>
+</timecycle_modifier_data>

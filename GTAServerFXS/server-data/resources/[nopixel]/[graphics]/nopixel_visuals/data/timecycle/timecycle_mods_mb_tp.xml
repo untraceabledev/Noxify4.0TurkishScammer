@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NaturalVision by Razed -->
+<!-- DO NOT DISTRIBUTE WITHOUT PERMISSION OF THE CREATOR! -->
+
+<timecycle_modifier_data version="1.000000">
+	<modifier name="nextgen" numMods="3" userFlags="0">
+		<postfx_motionblurlength>0.000 1.000</postfx_motionblurlength>
+		<lens_dist_coeff>-0.001 0.000</lens_dist_coeff>
+		<lens_dist_cube_coeff>-0.001 0.000</lens_dist_cube_coeff>
+	</modifier>
+</timecycle_modifier_data>
