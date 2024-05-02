@@ -1,0 +1,36 @@
+{
+    "garage_id": "garage_seoul",
+    "name": "Garage Little Seoul",
+    "type": "public",
+    "parkingLimit": 10,
+    "location": {
+        "vectors": {
+            "x": -678.54,
+            "y": -885.18,
+            "z": 24.5
+        },
+        "length":  3.0,
+        "width": 5.4,
+        "options": {
+            "heading": 15.0,
+            "minZ": 23.5,
+            "maxZ": 27.5,
+            "debugPoly": false
+        },
+        "hidden": true
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 101.05807,
+            "coords": {
+                "x": -678.332,
+                "y": -885.062,
+                "z": 23.487
+            }
+        }
+    ]
+}

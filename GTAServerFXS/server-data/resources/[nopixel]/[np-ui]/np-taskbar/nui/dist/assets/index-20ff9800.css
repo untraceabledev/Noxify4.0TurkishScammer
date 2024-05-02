@@ -1,0 +1,289 @@
+@font-face {
+  font-family: retroLand;
+  src: url(./retro-land-mayhem-01405e18.ttf);
+}
+@font-face {
+  font-family: roboto300;
+  src: url(./RobotoCondensed-Light-1ec3d4e4.ttf);
+}
+@font-face {
+  font-family: roboto400;
+  src: url(./RobotoCondensed-Regular-04d24249.ttf);
+}
+@font-face {
+  font-family: roboto700;
+  src: url(./RobotoCondensed-Bold-14948aed.ttf);
+}
+@font-face {
+  font-family: gilroy600;
+  src: url(./gilroy-semibold-32eb47df.ttf);
+}
+@font-face {
+  font-family: gilroy400;
+  src: url(./gilroy-regular-8bbb8f0f.ttf);
+}
+@font-face {
+  font-family: gilroy500;
+  src: url(./gilroy-medium-ce8d455b.ttf);
+}
+@font-face {
+  font-family: intervar;
+  src: url(./inter-var-b9a8e5e2.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  background-size: cover;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.inter500 {
+  font-family: intervar;
+  font-weight: 500;
+}
+
+.retroLand {
+  font-family: retroLand;
+}
+
+.roboto300 {
+  font-family: roboto300;
+}
+
+.roboto400 {
+  font-family: roboto400;
+}
+
+.roboto700 {
+  font-family: roboto700;
+}
+
+.roboto700 {
+  font-family: roboto700;
+}
+
+.gilroy600 {
+  font-family: gilroy600;
+}
+
+.gilroy400 {
+  font-family: gilroy400;
+}
+
+.gilroy500 {
+  font-family: gilroy500;
+}
+
+.p-white {
+  color: #ffffff;
+}
+
+.p-white55 {
+  color: rgba(255, 255, 255, 0.5490196078);
+}
+
+.p-cyan {
+  color: #00f8b9;
+}
+
+.p-black62 {
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.p-black54 {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.p-black {
+  color: #000000;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes blockReveal {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 0;
+  vertical-align: baseline;
+  outline: none;
+}::-webkit-scrollbar {
+  display: none;
+}
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+  gap: calc(0.092592592vh * 30);
+  width: 100vw;
+  height: 100vh;
+  justify-content: flex-end;
+  position: relative;
+  transition: 0.2s ease-in-out;
+}
+.center-column.hidden {
+  opacity: 0;
+}.progress-cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: calc(0.092592592vh * 20);
+  margin-bottom: calc(0.092592592vh * 150);
+}
+.progress-cont .progress {
+  width: calc(0.092592592vh * 318);
+  display: flex;
+  flex-direction: column;
+  gap: calc(0.092592592vh * 5);
+}
+.progress-cont .progress.removeAnim {
+  animation: progressEnterLeave 1s ease-in-out forwards;
+}
+.progress-cont .progress .top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.progress-cont .progress .top-line p.gilroy400 {
+  font-size: calc(0.092592592vh * 12);
+}
+.progress-cont .progress .top-line p.gilroy600 {
+  font-size: calc(0.092592592vh * 14);
+}
+.progress-cont .progress .bottom-line {
+  width: 100%;
+  height: calc(0.092592592vh * 30);
+  box-sizing: border-box;
+  border: calc(0.092592592vh * 1) solid #383e58;
+  padding: calc(0.092592592vh * 6);
+}
+.progress-cont .progress .bottom-line ul {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(50% 21470.53% at 50% 50%, rgba(56, 62, 88, 0.76) 0%, rgba(56, 62, 88, 0) 100%);
+  justify-content: space-between;
+}
+.progress-cont .progress .bottom-line ul li {
+  width: calc(0.092592592vh * 10.5);
+  height: calc(0.092592592vh * 8);
+}
+.progress-cont .progress .bottom-line ul li svg {
+  width: calc(0.092592592vh * 10.5);
+  height: calc(0.092592592vh * 8);
+}
+.progress-cont .progress .bottom-line ul li svg path {
+  fill: rgba(0, 0, 0, 0.2);
+}
+.progress-cont .progress .bottom-line ul li.active svg path {
+  fill: url(#paint0_linear_192_180);
+}
+
+@keyframes progressEnterLeave {
+  0% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(calc(0.092592592vh * -100));
+  }
+}

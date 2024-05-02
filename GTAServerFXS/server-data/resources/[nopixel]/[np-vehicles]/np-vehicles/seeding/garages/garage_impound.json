@@ -1,0 +1,44 @@
+{
+    "garage_id": "garage_impound",
+    "name": "Impound Garage",
+    "type": "public",
+    "parkingLimit": 10,
+    "location": {
+        "vectors": {
+            "x": -152.94,
+            "y": -1168.26,
+            "z": 23.77
+        },
+        "length": 8.4,
+        "width": 5.6,
+        "options": {
+            "heading": 0,
+            "debugPoly": false
+        }
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 91.0,
+            "coords": {
+                "x": -153.167,
+                "y": -1170.002,
+                "z": 22.761
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 91.0,
+            "coords": {
+                "x": -153.178,
+                "y": -1166.529,
+                "z": 22.767
+            }
+        }
+    ]
+}

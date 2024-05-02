@@ -1,0 +1,70 @@
+{
+    "garage_id": "garage_burgershot",
+    "name": "Burger Shot Garage",
+    "type": "business",
+    "business_id": "burger_shot",
+    "parkingLimit": 1,
+    "location": {
+        "vectors": {
+            "x": -1169.08,
+            "y": -881.4,
+            "z": 13.95
+        },
+        "length": 6.0,
+        "width": 24.2,
+        "options": {
+            "heading": 303,
+            "debugPoly": false,
+            "minZ": 12.95,
+            "maxZ": 16.95
+        },
+        "hidden": true
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 303.0,
+            "coords": {
+                "x": -1174.323,
+                "y": -872.937,
+                "z": 13.219
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 303.0,
+            "coords": {
+                "x": -1172.267,
+                "y": -876.099,
+                "z": 13.199
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 303.0,
+            "coords": {
+                "x": -1170.212,
+                "y": -879.261,
+                "z": 13.18
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 303.0,
+            "coords": {
+                "x": -1168.156,
+                "y": -882.423,
+                "z": 13.16
+            }
+        }
+    ]
+}

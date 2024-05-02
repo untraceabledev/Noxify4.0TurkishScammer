@@ -1,0 +1,36 @@
+{
+    "garage_id": "business_petstore",
+    "name": "Pet Store Garage",
+    "type": "business",
+    "parkingLimit": 30,
+    "shared": true,
+    "location": {
+        "vectors": {
+            "x": -287.86,
+            "y": 6303.49,
+            "z": 31.49
+        },
+        "width": 9.2,
+        "length": 6.6,
+        "options": {
+            "heading": 45.0,
+            "minZ": 29.89,
+            "maxZ": 34.09,
+            "debugPoly": false
+        }
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 5.0,
+            "heading": 34.19,
+            "coords": {
+                "x": -287.02,
+                "y": 6304.04,
+                "z": 31.5
+            }
+        }
+    ]
+}

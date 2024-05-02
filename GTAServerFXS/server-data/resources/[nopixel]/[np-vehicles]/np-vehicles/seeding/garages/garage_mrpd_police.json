@@ -1,0 +1,80 @@
+{
+    "garage_id": "garage_mrpd_police",
+    "name": "MRPD Police Garage",
+    "type": "public",
+    "parkingLimit": 10,
+    "location": {
+        "vectors": {
+            "x": 442.23,
+            "y": -1025.77,
+            "z": 28.73
+        },
+        "length": 6.4,
+        "width": 18.8,
+        "options": {
+            "heading": 5.0,
+            "minZ": 27.13,
+            "maxZ": 31.13,
+            "debugPoly": false
+        },
+        "hidden": true
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 183.0,
+            "coords": {
+                "x": 449.554,
+                "y": -1025.648,
+                "z": 27.584
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 183.0,
+            "coords": {
+                "x": 446.05,
+                "y": -1026.037,
+                "z": 27.649
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 183.0,
+            "coords": {
+                "x": 442.547,
+                "y": -1026.426,
+                "z": 27.714
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 183.0,
+            "coords": {
+                "x": 439.043,
+                "y": -1026.815,
+                "z": 27.778
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 183.0,
+            "coords": {
+                "x": 435.539,
+                "y": -1027.204,
+                "z": 27.843
+            }
+        }
+    ]
+}

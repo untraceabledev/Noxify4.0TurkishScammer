@@ -1,0 +1,277 @@
+{
+    "garage_id": "garage_num_2",
+    "name": "Garage 2",
+    "type": "public",
+    "parkingLimit": 10,
+    "location": {
+        "vectors": {
+            "x": 283.44,
+            "y": -332.58,
+            "z": 44.92
+        },
+        "length": 37.0,
+        "width": 25,
+        "options": {
+            "heading": 250.0,
+            "minZ": 43.12,
+            "maxZ": 47.12,
+            "debugPoly": false
+        }
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 250.0,
+            "coords": {
+                "x": 277.165,
+                "y": -340.141,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 250.0,
+            "coords": {
+                "x": 278.384,
+                "y": -336.883,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 250.0,
+            "coords": {
+                "x": 279.603,
+                "y": -333.626,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 250.0,
+            "coords": {
+                "x": 280.822,
+                "y": -330.369,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 250.0,
+            "coords": {
+                "x": 282.042,
+                "y": -327.112,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 250.0,
+            "coords": {
+                "x": 283.261,
+                "y": -323.855,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 289.377,
+                "y": -326.137,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 288.149,
+                "y": -329.386,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 286.921,
+                "y": -332.635,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 285.693,
+                "y": -335.884,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 284.466,
+                "y": -339.133,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 283.238,
+                "y": -342.381,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 241.0,
+            "coords": {
+                "x": 294.401,
+                "y": -346.365,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 241.0,
+            "coords": {
+                "x": 295.579,
+                "y": -343.127,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 241.0,
+            "coords": {
+                "x": 296.757,
+                "y": -339.888,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 241.0,
+            "coords": {
+                "x": 297.936,
+                "y": -336.65,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 241.0,
+            "coords": {
+                "x": 299.114,
+                "y": -333.412,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 241.0,
+            "coords": {
+                "x": 300.292,
+                "y": -330.174,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 271.053,
+                "y": -319.298,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 269.851,
+                "y": -322.525,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 268.648,
+                "y": -325.753,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 267.445,
+                "y": -328.981,
+                "z": 43.921
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 68.0,
+            "coords": {
+                "x": 266.243,
+                "y": -332.209,
+                "z": 43.921
+            }
+        }
+    ]
+}

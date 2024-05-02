@@ -1,0 +1,60 @@
+html {
+    display: none;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*,
+::before,
+::after {
+    border-width: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+iframe {
+    overflow: hidden;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+}
+
+.browserin {
+    width: 100%;
+    height: 101%;
+
+    border-radius: 1.29vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 131.94vh;
+    height: 87.03vh;
+    max-height: 87.03vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1.29vh;
+    background: #1B1C16;
+    outline: 1.11vh solid #1B1C16;
+
+    transition: all 0.5s ease;
+}

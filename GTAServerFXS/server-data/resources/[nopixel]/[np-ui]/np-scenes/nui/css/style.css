@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.drawEntry {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    visibility: hidden;
+    transform-origin: left top;
+}
+
+.drawEntryText {
+    color: #FFFFFF;
+    font-size: 0.75em;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}

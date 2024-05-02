@@ -1,0 +1,58 @@
+{
+    "garage_id": "business_pegasus",
+    "name": "Pegasus Garage",
+    "type": "business",
+    "parkingLimit": 30,
+    "shared": true,
+    "location": {
+        "vectors": {
+            "x": -317.86,
+            "y": 226.51,
+            "z": 87.91
+        },
+        "width": 9.4,
+        "length": 27.4,
+        "options": {
+            "heading": 284.0,
+            "minZ": 85.11,
+            "maxZ": 90.31,
+            "debugPoly": false
+        }
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 5.0,
+            "heading": 280.0,
+            "coords": {
+                "x": -310.669,
+                "y": 230.174,
+                "z": 86.826
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 5.0,
+            "heading": 280.0,
+            "coords": {
+                "x": -309.525,
+                "y": 226.126,
+                "z": 86.892
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 5.0,
+            "heading": 30.0,
+            "coords": {
+                "x": -327.625,
+                "y": 227.622,
+                "z": 85.749
+            }
+        }
+    ]
+}

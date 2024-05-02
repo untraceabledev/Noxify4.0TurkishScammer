@@ -1,0 +1,101 @@
+{
+    "garage_id": "garage_tuner",
+    "name": "Tuner Garage",
+    "type": "public",
+    "parkingLimit": 10,
+    "location": {
+        "vectors": {
+            "x": 162.31,
+            "y": -3001.24,
+            "z": 5.86
+        },
+        "length": 20.0,
+        "width": 6.0,
+        "options": {
+            "heading": 0.0,
+            "minZ": 4.86,
+            "maxZ": 8.86,
+            "debugPoly": false
+        }
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 266.0332,
+            "coords": {
+                "x": 162.23,
+                "y": -3009.301,
+                "z": 4.952
+            }
+        },
+         {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 266.0332,
+            "coords": {
+                "x": 162.328,
+                "y": -3006.06,
+                "z": 4.952
+            }
+        },
+            {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 266.0332,
+            "coords": {
+                "x": 162.427,
+                "y": -3002.819,
+                "z": 4.952
+            }
+        },
+           {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 266.0332,
+            "coords": {
+                "x": 162.525,
+                "y": -2999.577,
+                "z": 4.952
+            }
+        },
+           {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 266.0332,
+            "coords": {
+                "x": 162.624,
+                "y": -2996.336,
+                "z": 4.952
+            }
+        },
+          {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 266.0332,
+            "coords": {
+                "x": 162.722,
+                "y": -2993.095,
+                "z": 4.952
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 266.0332,
+            "coords": {
+                "x": 162.821,
+                "y": -2989.854,
+                "z": 4.952
+            }
+        }
+    ]
+}

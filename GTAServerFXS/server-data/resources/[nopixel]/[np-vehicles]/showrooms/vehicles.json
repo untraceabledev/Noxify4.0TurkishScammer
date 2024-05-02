@@ -1,0 +1,1255 @@
+[
+    {
+        "model": "ninef",
+        "name": "9F",
+        "category": "sports",
+        "price": 150000,
+        "description": ""
+    },
+    {
+        "model": "buffalo2",
+        "name": "Buffalo S",
+        "category": "sports",
+        "price": 25000,
+        "description": ""
+    },
+    {
+        "model": "ninef2",
+        "name": "9F Cabrio",
+        "category": "sports",
+        "price": 170000,
+        "description": ""
+    },
+    {
+        "model": "blista",
+        "name": "Blista",
+        "category": "compacts",
+        "price": 15000,
+        "description": ""
+    },
+    {
+        "model": "jester",
+        "name": "Jester",
+        "category": "sports",
+        "price": 135000,
+        "description": ""
+    },
+    {
+        "model": "asea",
+        "name": "Asea",
+        "category": "sedans",
+        "price": 8500,
+        "description": ""
+    },
+    {
+        "model": "verus",
+        "name": "Verus",
+        "category": "offroad",
+        "price": 9000,
+        "description": ""
+    },
+    {
+        "model": "flatbed",
+        "name": "Flatbed",
+        "category": "industrial",
+        "price": 46000,
+        "description": ""
+    },
+    {
+        "model": "buffalo",
+        "name": "Buffalo",
+        "category": "sports",
+        "price": 25000,
+        "description": ""
+    },
+    {
+        "model": "benson",
+        "name": "Benson",
+        "category": "commercial",
+        "price": 23250,
+        "description": ""
+    },
+    {
+        "model": "bullet",
+        "name": "Bullet",
+        "category": "super",
+        "price": 150000,
+        "description": ""
+    },
+    {
+        "model": "boxville2",
+        "name": "Boxville",
+        "category": "vans",
+        "price": 7500,
+        "description": ""
+    },
+    {
+        "model": "bati",
+        "name": "Bati 801",
+        "category": "motorcycles",
+        "price": 13500,
+        "description": ""
+    },
+    {
+        "model": "blazer",
+        "name": "Blazer",
+        "category": "offroad",
+        "price": 7000,
+        "description": ""
+    },
+    {
+        "model": "massacro",
+        "name": "Massacro",
+        "category": "sports",
+        "price": 100000,
+        "description": ""
+    },
+    {
+        "model": "asterope",
+        "name": "Asterope",
+        "category": "sedans",
+        "price": 41000,
+        "description": ""
+    },
+    {
+        "model": "glendale",
+        "name": "Glendale",
+        "category": "sedans",
+        "price": 8000,
+        "description": ""
+    },
+    {
+        "model": "caracara2",
+        "name": "Caracara 4x4",
+        "category": "offroad",
+        "price": 25000,
+        "description": ""
+    },
+    {
+        "model": "gresley",
+        "name": "Gresley",
+        "category": "suvs",
+        "price": 20000,
+        "description": ""
+    },
+    {
+        "model": "cavalcade",
+        "name": "Cavalcade",
+        "category": "suvs",
+        "price": 21000,
+        "description": ""
+    },
+    {
+        "model": "innovation",
+        "name": "Innovation",
+        "category": "motorcycles",
+        "price": 13000,
+        "description": ""
+    },
+    {
+        "model": "bjxl",
+        "name": "BeeJay XL",
+        "category": "suvs",
+        "price": 38000,
+        "description": ""
+    },
+    {
+        "model": "baller",
+        "name": "Baller",
+        "category": "suvs",
+        "price": 31000,
+        "description": ""
+    },
+    {
+        "model": "pony",
+        "name": "Pony",
+        "category": "vans",
+        "price": 14000,
+        "description": ""
+    },
+    {
+        "model": "voltic",
+        "name": "Voltic",
+        "category": "super",
+        "price": 120000,
+        "description": ""
+    },
+    {
+        "model": "baller2",
+        "name": "Baller",
+        "category": "suvs",
+        "price": 34500,
+        "description": ""
+    },
+    {
+        "model": "bfinjection",
+        "name": "Injection",
+        "category": "offroad",
+        "price": 5000,
+        "description": ""
+    },
+    {
+        "model": "felon2",
+        "name": "Felon GT",
+        "category": "coupes",
+        "price": 35000,
+        "description": ""
+    },
+    {
+        "model": "bison",
+        "name": "Bison",
+        "category": "vans",
+        "price": 23500,
+        "description": ""
+    },
+    {
+        "model": "cavalcade2",
+        "name": "Cavalcade",
+        "category": "suvs",
+        "price": 11000,
+        "description": ""
+    },
+    {
+        "model": "seminole",
+        "name": "Seminole",
+        "category": "suvs",
+        "price": 6000,
+        "description": ""
+    },
+    {
+        "model": "bobcatxl",
+        "name": "Bobcat XL",
+        "category": "vans",
+        "price": 5000,
+        "description": ""
+    },
+    {
+        "model": "comet2",
+        "name": "Comet",
+        "category": "sports",
+        "price": 180000,
+        "description": ""
+    },
+    {
+        "model": "buccaneer",
+        "name": "Buccaneer",
+        "category": "muscle",
+        "price": 12000,
+        "description": ""
+    },
+    {
+        "model": "zentorno",
+        "name": "Zentorno",
+        "category": "super",
+        "price": 1000000,
+        "description": ""
+    },
+    {
+        "model": "burrito",
+        "name": "Burrito",
+        "category": "vans",
+        "price": 12000,
+        "description": ""
+    },
+    {
+        "model": "cheetah",
+        "name": "Cheetah",
+        "category": "super",
+        "price": 650000,
+        "description": ""
+    },
+    {
+        "model": "burrito3",
+        "name": "Burrito",
+        "category": "vans",
+        "price": 12000,
+        "description": ""
+    },
+    {
+        "model": "dilettante",
+        "name": "Dilettante",
+        "category": "compacts",
+        "price": 28000,
+        "description": ""
+    },
+    {
+        "model": "exemplar",
+        "name": "Exemplar",
+        "category": "coupes",
+        "price": 85000,
+        "description": ""
+    },
+    {
+        "model": "manana",
+        "name": "Manana",
+        "category": "sportsclassics",
+        "price": 40000,
+        "description": ""
+    },
+    {
+        "model": "tornado",
+        "name": "Tornado",
+        "category": "sportsclassics",
+        "price": 40000,
+        "description": ""
+    },
+    {
+        "model": "hexer",
+        "name": "Hexer",
+        "category": "motorcycles",
+        "price": 30000,
+        "description": ""
+    },
+    {
+        "model": "ruffian",
+        "name": "Ruffian",
+        "category": "motorcycles",
+        "price": 10000,
+        "description": ""
+    },
+    {
+        "model": "omnisegt",
+        "name": "Omnis e-GT",
+        "category": "sports",
+        "price": 120000,
+        "description": ""
+    },
+    {
+        "model": "carbonizzare",
+        "name": "Carbonizzare",
+        "category": "sports",
+        "price": 260000,
+        "description": ""
+    },
+    {
+        "model": "fq2",
+        "name": "FQ 2",
+        "category": "suvs",
+        "price": 11500,
+        "description": ""
+    },
+    {
+        "model": "dloader",
+        "name": "Duneloader",
+        "category": "offroad",
+        "price": 5000,
+        "description": ""
+    },
+    {
+        "model": "vigero2",
+        "name": "Vigero ZX",
+        "category": "muscle",
+        "price": 70000,
+        "description": ""
+    },
+    {
+        "model": "draugur",
+        "name": "Draugur",
+        "category": "offroad",
+        "price": 30000,
+        "description": ""
+    },
+    {
+        "model": "dominator",
+        "name": "Dominator",
+        "category": "muscle",
+        "price": 80000,
+        "description": ""
+    },
+    {
+        "model": "habanero",
+        "name": "Habanero",
+        "category": "suvs",
+        "price": 11000,
+        "description": ""
+    },
+    {
+        "model": "entityxf",
+        "name": "Entity XF",
+        "category": "super",
+        "price": 700000,
+        "description": ""
+    },
+    {
+        "model": "elegy2",
+        "name": "Elegy RH8",
+        "category": "sports",
+        "price": 160000,
+        "description": ""
+    },
+    {
+        "model": "f620",
+        "name": "F620",
+        "category": "coupes",
+        "price": 27500,
+        "description": ""
+    },
+    {
+        "model": "thrust",
+        "name": "Thrust",
+        "category": "motorcycles",
+        "price": 12000,
+        "description": ""
+    },
+    {
+        "model": "felon",
+        "name": "Felon",
+        "category": "coupes",
+        "price": 25000,
+        "description": ""
+    },
+    {
+        "model": "feltzer2",
+        "name": "Feltzer",
+        "category": "sports",
+        "price": 275000,
+        "description": ""
+    },
+    {
+        "model": "fugitive",
+        "name": "Fugitive",
+        "category": "sedans",
+        "price": 35000,
+        "description": ""
+    },
+    {
+        "model": "granger",
+        "name": "Granger",
+        "category": "suvs",
+        "price": 22000,
+        "description": ""
+    },
+    {
+        "model": "adder",
+        "name": "Adder",
+        "category": "super",
+        "price": 1250000,
+        "description": ""
+    },
+    {
+        "model": "gauntlet",
+        "name": "Gauntlet",
+        "category": "muscle",
+        "price": 82000,
+        "description": ""
+    },
+    {
+        "model": "infernus",
+        "name": "Infernus",
+        "category": "super",
+        "price": 240000,
+        "description": ""
+    },
+    {
+        "model": "ingot",
+        "name": "Ingot",
+        "category": "sedans",
+        "price": 6000,
+        "description": ""
+    },
+    {
+        "model": "intruder",
+        "name": "Intruder",
+        "category": "sedans",
+        "price": 10000,
+        "description": ""
+    },
+    {
+        "model": "issi2",
+        "name": "Issi",
+        "category": "compacts",
+        "price": 17500,
+        "description": ""
+    },
+    {
+        "model": "surge",
+        "name": "Surge",
+        "category": "sedans",
+        "price": 30000,
+        "description": ""
+    },
+    {
+        "model": "stretch",
+        "name": "Stretch",
+        "category": "sedans",
+        "price": 300000,
+        "description": ""
+    },
+    {
+        "model": "ztype",
+        "name": "Z-Type",
+        "category": "sportsclassics",
+        "price": 5000000,
+        "description": ""
+    },
+    {
+        "model": "carbonrs",
+        "name": "Carbon RS",
+        "category": "motorcycles",
+        "price": 18000,
+        "description": ""
+    },
+    {
+        "model": "khamelion",
+        "name": "Khamelion",
+        "category": "sports",
+        "price": 80000,
+        "description": ""
+    },
+    {
+        "model": "landstalker",
+        "name": "Landstalker",
+        "category": "suvs",
+        "price": 50000,
+        "description": ""
+    },
+    {
+        "model": "raiden",
+        "name": "Raiden",
+        "category": "sports",
+        "price": 95000,
+        "description": ""
+    },
+    {
+        "model": "mesa",
+        "name": "Mesa",
+        "category": "suvs",
+        "price": 17500,
+        "description": ""
+    },
+    {
+        "model": "minivan",
+        "name": "Minivan",
+        "category": "vans",
+        "price": 10000,
+        "description": ""
+    },
+    {
+        "model": "monroe",
+        "name": "Monroe",
+        "category": "sportsclassics",
+        "price": 500000,
+        "description": ""
+    },
+    {
+        "model": "sanchez",
+        "name": "Sanchez (livery)",
+        "category": "motorcycles",
+        "price": 9000,
+        "description": ""
+    },
+    {
+        "model": "oracle",
+        "name": "Oracle XS",
+        "category": "coupes",
+        "price": 8000,
+        "description": ""
+    },
+    {
+        "model": "patriot",
+        "name": "Patriot",
+        "category": "suvs",
+        "price": 30000,
+        "description": ""
+    },
+    {
+        "model": "penumbra",
+        "name": "Penumbra",
+        "category": "sports",
+        "price": 75000,
+        "description": ""
+    },
+    {
+        "model": "phoenix",
+        "name": "Phoenix",
+        "category": "muscle",
+        "price": 22000,
+        "description": ""
+    },
+    {
+        "model": "prairie",
+        "name": "Prairie",
+        "category": "compacts",
+        "price": 8000,
+        "description": ""
+    },
+    {
+        "model": "premier",
+        "name": "Premier",
+        "category": "sedans",
+        "price": 75000,
+        "description": ""
+    },
+    {
+        "model": "regina",
+        "name": "Regina",
+        "category": "sedans",
+        "price": 11000,
+        "description": ""
+    },
+    {
+        "model": "rapidgt",
+        "name": "Rapid GT",
+        "category": "sports",
+        "price": 70000,
+        "description": ""
+    },
+    {
+        "model": "rapidgt2",
+        "name": "Rapid GT",
+        "category": "sports",
+        "price": 70000,
+        "description": ""
+    },
+    {
+        "model": "rebel2",
+        "name": "Rebel",
+        "category": "offroad",
+        "price": 14500,
+        "description": ""
+    },
+    {
+        "model": "ruiner",
+        "name": "Ruiner",
+        "category": "muscle",
+        "price": 22000,
+        "description": ""
+    },
+    {
+        "model": "alpha",
+        "name": "Alpha",
+        "category": "sports",
+        "price": 55000,
+        "description": ""
+    },
+    {
+        "model": "voodoo2",
+        "name": "Voodoo",
+        "category": "muscle",
+        "price": 40000,
+        "description": ""
+    },
+    {
+        "model": "rocoto",
+        "name": "Rocoto",
+        "category": "suvs",
+        "price": 45000,
+        "description": ""
+    },
+    {
+        "model": "sadler",
+        "name": "Sadler",
+        "category": "utility",
+        "price": 13000,
+        "description": ""
+    },
+    {
+        "model": "sandking2",
+        "name": "Sandking SWB",
+        "category": "offroad",
+        "price": 30000,
+        "description": ""
+    },
+    {
+        "model": "schafter2",
+        "name": "Schafter",
+        "category": "sedans",
+        "price": 100000,
+        "description": ""
+    },
+    {
+        "model": "schwarzer",
+        "name": "Schwartzer",
+        "category": "sports",
+        "price": 85000,
+        "description": ""
+    },
+    {
+        "model": "sentinel",
+        "name": "Sentinel XS",
+        "category": "coupes",
+        "price": 25000,
+        "description": ""
+    },
+    {
+        "model": "patriot3",
+        "name": "Patriot Mil-Spec",
+        "category": "offroad",
+        "price": 75000,
+        "description": ""
+    },
+    {
+        "model": "taxi",
+        "name": "Taxi",
+        "category": "service",
+        "price": 10000,
+        "description": ""
+    },
+    {
+        "model": "outlaw",
+        "name": "Outlaw",
+        "category": "offroad",
+        "price": 20000,
+        "description": ""
+    },
+    {
+        "model": "speedo",
+        "name": "Speedo",
+        "category": "vans",
+        "price": 14000,
+        "description": ""
+    },
+    {
+        "model": "stinger",
+        "name": "Stinger",
+        "category": "sportsclassics",
+        "price": 2000000,
+        "description": ""
+    },
+    {
+        "model": "superd",
+        "name": "Super Diamond",
+        "category": "sedans",
+        "price": 330000,
+        "description": ""
+    },
+    {
+        "model": "sultan",
+        "name": "Sultan",
+        "category": "sports",
+        "price": 51235,
+        "description": ""
+    },
+    {
+        "model": "surano",
+        "name": "Surano",
+        "category": "sports",
+        "price": 100000,
+        "description": ""
+    },
+    {
+        "model": "surfer",
+        "name": "Surfer",
+        "category": "vans",
+        "price": 10000,
+        "description": ""
+    },
+    {
+        "model": "taco",
+        "name": "Taco Van",
+        "category": "vans",
+        "price": 10000,
+        "description": ""
+    },
+    {
+        "model": "tailgater",
+        "name": "Tailgater",
+        "category": "sedans",
+        "price": 35000,
+        "description": ""
+    },
+    {
+        "model": "manchez2",
+        "name": "Manchez Scout",
+        "category": "motorcycles",
+        "price": 10000,
+        "description": ""
+    },
+    {
+        "model": "washington",
+        "name": "Washington",
+        "category": "sedans",
+        "price": 7500,
+        "description": ""
+    },
+    {
+        "model": "panto",
+        "name": "Panto",
+        "category": "compacts",
+        "price": 12000,
+        "description": ""
+    },
+    {
+        "model": "chino",
+        "name": "Chino",
+        "category": "muscle",
+        "price": 20000,
+        "description": ""
+    },
+    {
+        "model": "yosemite",
+        "name": "Yosemite",
+        "category": "muscle",
+        "price": 20000,
+        "description": ""
+    },
+    {
+        "model": "akuma",
+        "name": "Akuma",
+        "category": "motorcycles",
+        "price": 10500,
+        "description": ""
+    },
+    {
+        "model": "pcj",
+        "name": "PCJ 600",
+        "category": "motorcycles",
+        "price": 12000,
+        "description": ""
+    },
+    {
+        "model": "vacca",
+        "name": "Vacca",
+        "category": "super",
+        "price": 250000,
+        "description": ""
+    },
+    {
+        "model": "paradise",
+        "name": "Paradise",
+        "category": "vans",
+        "price": 15000,
+        "description": ""
+    },
+    {
+        "model": "bagger",
+        "name": "Bagger",
+        "category": "motorcycles",
+        "price": 23000,
+        "description": ""
+    },
+    {
+        "model": "bati2",
+        "name": "Bati 801RR",
+        "category": "motorcycles",
+        "price": 13500,
+        "description": ""
+    },
+    {
+        "model": "daemon",
+        "name": "Daemon",
+        "category": "motorcycles",
+        "price": 14400,
+        "description": ""
+    },
+    {
+        "model": "double",
+        "name": "Double-T",
+        "category": "motorcycles",
+        "price": 19000,
+        "description": ""
+    },
+    {
+        "model": "vader",
+        "name": "Vader",
+        "category": "motorcycles",
+        "price": 20000,
+        "description": ""
+    },
+    {
+        "model": "faggio2",
+        "name": "Faggio",
+        "category": "motorcycles",
+        "price": 3500,
+        "description": ""
+    },
+    {
+        "model": "sovereign",
+        "name": "Sovereign",
+        "category": "motorcycles",
+        "price": 23000,
+        "description": ""
+    },
+    {
+        "model": "nemesis",
+        "name": "Nemesis",
+        "category": "motorcycles",
+        "price": 12000,
+        "description": ""
+    },
+    {
+        "model": "jubilee",
+        "name": "Jubilee",
+        "category": "suvs",
+        "price": 325000,
+        "description": ""
+    },
+    {
+        "model": "sultan3",
+        "name": "Sultan RS Classic",
+        "category": "sports",
+        "price": 120000,
+        "description": ""
+    },
+    {
+        "model": "huntley",
+        "name": "Huntley S",
+        "category": "suvs",
+        "price": 40000,
+        "description": ""
+    },
+    {
+        "model": "osiris",
+        "name": "Osiris",
+        "category": "super",
+        "price": 1000000,
+        "description": ""
+    },
+    {
+        "model": "guardian",
+        "name": "Guardian",
+        "category": "industrial",
+        "price": 80000,
+        "description": ""
+    },
+    {
+        "model": "comet6",
+        "name": "Comet S2",
+        "category": "sports",
+        "price": 1250000,
+        "description": ""
+    },
+    {
+        "model": "bifta",
+        "name": "Bifta",
+        "category": "offroad",
+        "price": 6000,
+        "description": ""
+    },
+    {
+        "model": "warrener",
+        "name": "Warrener",
+        "category": "sedans",
+        "price": 75000,
+        "description": ""
+    },
+    {
+        "model": "kalahari",
+        "name": "Kalahari",
+        "category": "offroad",
+        "price": 5000,
+        "description": ""
+    },
+    {
+        "model": "cinquemila",
+        "name": "Cinquemila",
+        "category": "sedans",
+        "price": 22000,
+        "description": ""
+    },
+    {
+        "model": "hakuchou",
+        "name": "Hakuchou",
+        "category": "motorcycles",
+        "price": 22500,
+        "description": ""
+    },
+    {
+        "model": "faggio",
+        "name": "Faggio Sport",
+        "category": "motorcycles",
+        "price": 12000,
+        "description": ""
+    },
+    {
+        "model": "furoregt",
+        "name": "Furore GT",
+        "category": "sports",
+        "price": 250000,
+        "description": ""
+    },
+    {
+        "model": "youga3",
+        "name": "Youga Classic 4x4",
+        "category": "vans",
+        "price": 7500,
+        "description": ""
+    },
+    {
+        "model": "champion",
+        "name": "Champion",
+        "category": "super",
+        "price": 1000000,
+        "description": ""
+    },
+    {
+        "model": "krieger",
+        "name": "Krieger",
+        "category": "super",
+        "price": 1000000,
+        "description": ""
+    },
+    {
+        "model": "everon",
+        "name": "Everon",
+        "category": "offroad",
+        "price": 50000,
+        "description": ""
+    },
+    {
+        "model": "virgo",
+        "name": "Virgo",
+        "category": "muscle",
+        "price": 22000,
+        "description": ""
+    },
+    {
+        "model": "windsor",
+        "name": "Windsor",
+        "category": "coupes",
+        "price": 350000,
+        "description": ""
+    },
+    {
+        "model": "vindicator",
+        "name": "Vindicator",
+        "category": "motorcycles",
+        "price": 12000,
+        "description": ""
+    },
+    {
+        "model": "bf400",
+        "name": "BF400",
+        "category": "motorcycles",
+        "price": 27500,
+        "description": ""
+    },
+    {
+        "model": "brawler",
+        "name": "Brawler",
+        "category": "offroad",
+        "price": 99000,
+        "description": ""
+    },
+    {
+        "model": "penumbra2",
+        "name": "Penumbra FF",
+        "category": "sports",
+        "price": 88000,
+        "description": ""
+    },
+    {
+        "model": "squaddie",
+        "name": "Squaddie",
+        "category": "suvs",
+        "price": 100000,
+        "description": ""
+    },
+    {
+        "model": "fmj",
+        "name": "FMJ",
+        "category": "super",
+        "price": 500000,
+        "description": ""
+    },
+    {
+        "model": "rumpo3",
+        "name": "Rumpo Custom",
+        "category": "vans",
+        "price": 50000,
+        "description": ""
+    },
+    {
+        "model": "tornado6",
+        "name": "Tornado Rat Rod",
+        "category": "sportsclassics",
+        "price": 60000,
+        "description": ""
+    },
+    {
+        "model": "sanctus",
+        "name": "Sanctus",
+        "category": "motorcycles",
+        "price": 15000,
+        "description": ""
+    },
+    {
+        "model": "manchez",
+        "name": "Manchez",
+        "category": "motorcycles",
+        "price": 15000,
+        "description": ""
+    },
+    {
+        "model": "italigtb",
+        "name": "Itali GTB",
+        "category": "super",
+        "price": 175000,
+        "description": ""
+    },
+    {
+        "model": "infernus2",
+        "name": "Infernus Classic",
+        "category": "sportsclassics",
+        "price": 300000,
+        "description": ""
+    },
+    {
+        "model": "ardent",
+        "name": "Ardent",
+        "category": "sportsclassics",
+        "price": 16000,
+        "description": ""
+    },
+    {
+        "model": "riata",
+        "name": "Riata",
+        "category": "offroad",
+        "price": 35000,
+        "description": ""
+    },
+    {
+        "model": "neon",
+        "name": "Neon",
+        "category": "sports",
+        "price": 150000,
+        "description": ""
+    },
+    {
+        "model": "astron",
+        "name": "Astron",
+        "category": "suvs",
+        "price": 62550,
+        "description": ""
+    },
+    {
+        "model": "deity",
+        "name": "Deity",
+        "category": "sedans",
+        "price": 220000,
+        "description": ""
+    },
+    {
+        "model": "blista2",
+        "name": "Blista Compact",
+        "category": "sports",
+        "price": 8000,
+        "description": ""
+    },
+    {
+        "model": "jugular",
+        "name": "Jugular",
+        "category": "sports",
+        "price": 100000,
+        "description": ""
+    },
+    {
+        "model": "peyote2",
+        "name": "Peyote Gasser",
+        "category": "muscle",
+        "price": 28000,
+        "description": ""
+    },
+    {
+        "model": "emerus",
+        "name": "Emerus",
+        "category": "super",
+        "price": 1000000,
+        "description": ""
+    },
+    {
+        "model": "furia",
+        "name": "Furia",
+        "category": "super",
+        "price": 1000000,
+        "description": ""
+    },
+    {
+        "model": "imorgon",
+        "name": "Imorgon",
+        "category": "sports",
+        "price": 200000,
+        "description": ""
+    },
+    {
+        "model": "coquette4",
+        "name": "Coquette D10",
+        "category": "sports",
+        "price": 88500,
+        "description": ""
+    },
+    {
+        "model": "club",
+        "name": "Club",
+        "category": "compacts",
+        "price": 8500,
+        "description": ""
+    },
+    {
+        "model": "italirsx",
+        "name": "Itali RSX",
+        "category": "sports",
+        "price": 500000,
+        "description": ""
+    },
+    {
+        "model": "weevil",
+        "name": "Weevil",
+        "category": "compacts",
+        "price": 5000,
+        "description": ""
+    },
+    {
+        "model": "tailgater2",
+        "name": "Tailgater S",
+        "category": "sedans",
+        "price": 40000,
+        "description": ""
+    },
+    {
+        "model": "growler",
+        "name": "Growler",
+        "category": "sports",
+        "price": 70000,
+        "description": ""
+    },
+    {
+        "model": "buffalo4",
+        "name": "Buffalo STX",
+        "category": "muscle",
+        "price": 85000,
+        "description": ""
+    },
+    {
+        "model": "ignus",
+        "name": "Ignus",
+        "category": "super",
+        "price": 1000000,
+        "description": ""
+    },
+    {
+        "model": "brioso3",
+        "name": "Brioso 300 Widebody",
+        "category": "compacts",
+        "price": 5000,
+        "description": ""
+    },
+    {
+        "model": "issi8",
+        "name": "Issi Rally",
+        "category": "suvs",
+        "price": 30000,
+        "description": ""
+    },
+    {
+        "model": "futo",
+        "name": "Futo",
+        "category": "sports",
+        "price": 18000,
+        "description": ""
+    },
+    {
+        "model": "dukes",
+        "name": "Dukes",
+        "category": "muscle",
+        "price": 18000,
+        "description": ""
+    },
+    {
+        "model": "sabregt",
+        "name": "Sabre Turbo",
+        "category": "muscle",
+        "price": 18000,
+        "description": ""
+    }
+]

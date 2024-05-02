@@ -1,0 +1,69 @@
+{
+    "garage_id": "garage_red",
+    "name": "Garage Red",
+    "type": "public",
+    "parkingLimit": 10,
+    "location": {
+        "vectors": {
+            "x": -333.31,
+            "y": -750.99,
+            "z": 33.97
+        },
+        "length": 11.8,
+        "width": 6.4,
+        "options": {
+            "heading": 270.0,
+            "minZ": 32.97,
+            "maxZ": 36.97,
+            "debugPoly": false
+        },
+        "hidden": true
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 175.84078,
+            "coords": {
+                "x": -337.497,
+                "y": -750.516,
+                "z": 32.969
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 175.84078,
+            "coords": {
+                "x": -334.64,
+                "y": -750.633,
+                "z": 32.969
+            }
+        },
+                {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 175.84078,
+            "coords": {
+                "x": -331.784,
+                "y": -750.751,
+                "z": 32.969
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 175.84078,
+            "coords": {
+                "x": -328.927,
+                "y": -750.869,
+                "z": 32.969
+            }
+        }
+    ]
+}

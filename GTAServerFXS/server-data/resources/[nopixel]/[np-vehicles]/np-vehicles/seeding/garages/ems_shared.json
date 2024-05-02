@@ -1,0 +1,81 @@
+{
+    "garage_id": "ems_shared",
+    "name": "EMS Shared Vehicle Garage",
+    "type": "state",
+    "shared": true,
+    "parkingLimit": 10,
+    "location": {
+        "vectors": {
+            "x": 326.03,
+            "y": -588.75,
+            "z": 28.8
+        },
+        "length": 17.8,
+        "width": 6.2,
+        "options": {
+            "heading": 250.0,
+            "minZ": 27.8,
+            "maxZ": 31.8,
+            "debugPoly": false
+        },
+        "hidden": true
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 338.05807,
+            "coords": {
+                "x": 332.717,
+                "y": -591.197,
+                "z": 27.797
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 338.05807,
+            "coords": {
+                "x": 329.376,
+                "y": -590.018,
+                "z": 27.797
+            }
+        },
+          {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 338.05807,
+            "coords": {
+                "x": 326.035,
+                "y": -588.839,
+                "z": 27.797
+            }
+        },
+                  {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 338.05807,
+            "coords": {
+                "x": 322.694,
+                "y": -587.66,
+                "z": 27.797
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 320.05807,
+            "coords": {
+                "x": 319.353,
+                "y": -586.481,
+                "z": 27.797
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "garage_id": "garage_cosmic",
+    "name": "Cosmic Cannabis Garage",
+    "type": "business",
+    "business_id": "cosmic_cannabis",
+    "parkingLimit": 1,
+    "location": {
+        "vectors": {
+            "x": 194.83,
+            "y": -251.71,
+            "z": 65.15
+        },
+        "length": 15.8,
+        "width": 9.0,
+        "options": {
+            "heading": 340,
+            "debugPoly": false
+        },
+        "hidden": true
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 67.48,
+            "coords": {
+                "x": 198.15,
+                "y": -248.004,
+                "z": 64.735
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 67.48,
+            "coords": {
+                "x": 196.928,
+                "y": -251.252,
+                "z": 64.735
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 67.48,
+            "coords": {
+                "x": 195.706,
+                "y": -254.5,
+                "z": 64.735
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 67.48,
+            "coords": {
+                "x": 194.484,
+                "y": -257.748,
+                "z": 64.735
+            }
+        }
+    ]
+}

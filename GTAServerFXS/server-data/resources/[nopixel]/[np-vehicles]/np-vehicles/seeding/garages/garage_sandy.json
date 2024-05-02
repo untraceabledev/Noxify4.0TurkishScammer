@@ -1,0 +1,79 @@
+{
+    "garage_id": "garage_sandy",
+    "name": "Sandy Garage",
+    "type": "public",
+    "parkingLimit": 10,
+    "location": {
+        "vectors": {
+            "x": 1828.17,
+            "y": 3661.28,
+            "z": 34.02
+        },
+        "length": 5.8,
+        "width": 18.8,
+        "options": {
+            "heading": 30,
+            "minZ": 33.02,
+            "maxZ": 37.42,
+            "debugPoly": false
+        }
+    },
+    "vehicleTypes": ["land"],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 30.0,
+            "coords": {
+                "x": 1821.72,
+                "y": 3658.059,
+                "z": 33.009
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 30.0,
+            "coords": {
+                "x": 1824.995,
+                "y": 3659.948,
+                "z": 32.936
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 30.0,
+            "coords": {
+                "x": 1828.27,
+                "y": 3661.837,
+                "z": 32.862
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 30.0,
+            "coords": {
+                "x": 1831.545,
+                "y": 3663.726,
+                "z": 32.789
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 30.0,
+            "coords": {
+                "x": 1834.82,
+                "y": 3665.615,
+                "z": 32.716
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "garage_id": "garage_num_1",
+    "name": "Garage 1",
+    "type": "public",
+    "parkingLimit": 10,
+    "location": {
+        "vectors": {
+            "x": 466.29,
+            "y": -71.95,
+            "z": 77.46
+        },
+        "length": 11.8,
+        "width": 5,
+        "options": {
+            "heading": 70.0,
+            "minZ": 76.46,
+            "maxZ": 80.46,
+            "debugPoly": false
+        }
+    },
+    "vehicleTypes": [
+        "land"
+    ],
+    "parkingSpots": [
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 160.0,
+            "coords": {
+                "x": 469.84,
+                "y": -73.424,
+                "z": 76.461
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 160.0,
+            "coords": {
+                "x": 466.25,
+                "y": -72.174,
+                "z": 76.461
+            }
+        },
+        {
+            "type": "land",
+            "size": 2,
+            "distance": 1.2,
+            "heading": 160.0,
+            "coords": {
+                "x": 466.25,
+                "y": -70.924,
+                "z": 76.461
+            }
+        }
+    ]
+}
